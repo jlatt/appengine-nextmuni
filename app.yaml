@@ -1,11 +1,12 @@
 application: sf-next-bus
 runtime: python
 api_version: 1
-version: none
+version: alpha
 
 builtins:
 - datastore_admin: on
 - appstats: on
+- admin_redirect: on
 
 handlers:
 - url: /
