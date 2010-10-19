@@ -1,0 +1,20 @@
+application: sf-next-bus
+runtime: python
+api_version: 1
+version: none
+
+builtins:
+- datastore_admin: on
+- appstats: on
+
+handlers:
+- url: /
+  static_files: www/html/map.html
+  upload: www/html/map.html
+
+- url: /(js|css|img)/(.*)
+  static_files: www/\1/\2
+  upload: www/(js|css|img)/.*
+
+- url: .*
+  script: main.py
