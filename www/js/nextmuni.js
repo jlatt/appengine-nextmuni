@@ -39,11 +39,11 @@ nextmuni.getCurrentPosition = function(fun) {
         console.error('geolocation failed');
     });
 };
-nextmuni.getCurrentPosition = function(fun) { // XXX mock
+/*nextmuni.getCurrentPosition = function(fun) { // XXX mock
     console.log('mock getCurrentPosition()');
     var center = new google.maps.LatLng(37.7867656, -122.4580752);
     fun.call(navigator.geolocation, center);
-};
+};*/
 
 
 nextmuni.queryBounds = function() {
