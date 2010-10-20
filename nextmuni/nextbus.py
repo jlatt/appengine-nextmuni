@@ -66,7 +66,7 @@ def route_config(resource):
         db.put(stops)
 
     # create route directions
-    route_stops_by_tag = dict((route_stop.stop.key().name(), route_stop) for route_stop in route_stops)
+    route_stops_by_tag = dict((route_stop.stop.tag, route_stop) for route_stop in route_stops)
     directions = []
     def to_direction(element):
         tag = element.getAttribute('tag')

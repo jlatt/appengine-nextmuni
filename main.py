@@ -32,7 +32,7 @@ class Stops(JSONRequestHandler):
                 short_title=stop.short_title,
                 title=stop.title,
                 stop_id=stop.stop_id,
-                tag=stop.key().name(),
+                tag=stop.tag,
                 key=str(stop.key()),
                 )
             return stop_dict
@@ -47,7 +47,26 @@ class Stop(JSONRequestHandler):
         rd_stops = list(stop.route_direction_stops)
         directions = [rd_stop.direction for rd_stop in rd_stops]
         routes = [direction.route for direction in directions]
-        self.write_json(routes=[route.key().name() for route in routes])
+
+        def direction_to_dict(direction):
+            return dict(
+                title=direction.title,
+                tag=direction.tag,
+                key=str(direction.key()),
+                route_key=str(direction.route.key()),
+                )
+
+        def route_to_dict(route):
+            return dict(
+                title=route.title,
+                tag=route.tag,
+                key=str(route.key()),
+                )
+
+        self.write_json(
+            directions=map(direction_to_dict, directions),
+            routes=map(route_to_dict, routes),
+            )
 
 
 application = webapp.WSGIApplication([

@@ -70,9 +70,16 @@ nextmuni.queryBounds = function() {
                     $.ajax({
                         'url': '/api/stop/' + stop.key,
                         'success': function(data, status, xhr) {
-							nextmuni.infoWindow.setContent(data.routes.join(', '));
-							nextmuni.infoWindow.setPosition(position);
-							nextmuni.infoWindow.open(nextmuni.map);
+							var routesByKey = {};
+							data.routes.forEach(function(route) {
+								routesByKey[route.key] = route;
+							});
+							var content = data.directions.map(function(direction) {
+								return '<p>' + routesByKey[direction.route_key].title + ': ' + direction.title + '</p>';
+							});
+							content.unshift('<h3>' + stop.title + '</h3>');
+							nextmuni.infoWindow.setContent('<div class="stop-info">' + content.join(' ') + '</div>');
+							nextmuni.infoWindow.open(nextmuni.map, marker);
                         }
                     });
                 });

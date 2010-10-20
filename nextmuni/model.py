@@ -11,6 +11,10 @@ class Tagged(db.Model):
     short_title = db.StringProperty()
     title = db.StringProperty()
 
+    @property
+    def tag(self):
+        return self.key().name()
+
 
 class Route(Tagged):
     # directions = [RouteDirection]
