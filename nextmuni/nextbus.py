@@ -1,4 +1,5 @@
 import logging
+import os
 import urllib
 from xml.dom import minidom
 
@@ -90,20 +91,14 @@ def route_config(resource):
     return stops, directions, paths
 
 
-def load_all():
-    routes = route_list()
-    for route in routes:
-        route_config(route.tag)
-
-
-def load_some():
-    routes = route_list()
-    for route_tag in ('33', '1', '2'):
-        route_config(route_tag)
-
-
 def delete_all():
     db.delete(model.Route.all())
     db.delete(model.Stop.all())
     db.delete(model.RouteDirection.all())
     db.delete(model.RoutePath.all())
+
+
+def load():
+    routes = route_list(file(os.path.join('xml', 'route_list.xml')))
+    for route in routes:
+        route_config(file(os.path.join('xml', 'route_config_%s.xml' % route.tag)))
