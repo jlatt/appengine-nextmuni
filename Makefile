@@ -1,5 +1,5 @@
 appserver=python2.5 /usr/local/bin/dev_appserver.py
-appserver_args=--use_sqlite -d
+appserver_args=--use_sqlite
 appserver_dir=.
 
 all:
