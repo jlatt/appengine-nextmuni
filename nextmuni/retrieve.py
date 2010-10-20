@@ -10,7 +10,7 @@ route_list_url = 'http://webservices.nextbus.com/service/publicXMLFeed?command=r
 
 
 def route_config_url(route_tag):
-    return 'http://webservices.nextbus.com/service/publicXMLFeed?command=routeConfig&a=sf-muni&r=' + route_tag
+    return 'http://webservices.nextbus.com/service/publicXMLFeed?command=routeConfig&a=sf-muni&r=' + urllib.quote_plus(route_tag)
 
 
 if __name__ == '__main__':
@@ -23,6 +23,7 @@ if __name__ == '__main__':
     doc = minidom.parseString(infile_data)
     for route_element in doc.getElementsByTagName('route'):
         route_tag = route_element.getAttribute('tag')
+        time.sleep(1) # throttle
         with file('route_config_%s.xml' % route_tag, 'w') as outfile:
             url = route_config_url(route_tag)
             print url
