@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<body copyright="All data copyright San Francisco Muni 2010.">
+<route tag="80X" title="80X-Gateway Express" color="cc0033" oppositeColor="ffffff" latMin="37.7770599" latMax="37.7944999" lonMin="-122.40018" lonMax="-122.39333">
+<stop tag="3162" title="4th St &amp; Townsend St" dirTag="80X_IB" lat="37.7770599" lon="-122.39487" stopId="13162"/>
+<stop tag="5333" title="Main St &amp; Howard St" dirTag="80X_IB" lat="37.79061" lon="-122.39333" stopId="15333"/>
+<stop tag="5336" title="Main St &amp; Market St" dirTag="80X_IB" lat="37.79253" lon="-122.39567" stopId="15336"/>
+<stop tag="4445" title="Drumm St &amp; California St" dirTag="80X_IB" lat="37.7939799" lon="-122.3963499" stopId="14445"/>
+<stop tag="6294" title="Sacramento St &amp; Davis St" dirTag="80X_IB" lat="37.7944999" lon="-122.39761" stopId="16294"/>
+<stop tag="6290" title="Sacramento St &amp; Battery St" dirTag="80X_IB" lat="37.7941399" lon="-122.40018" stopId="16290"/>
+<direction tag="80X_IB" title="Inbound to Sacramento &amp; Battery" name="Inbound" useForUI="true">
+  <stop tag="3162" />
+  <stop tag="5333" />
+  <stop tag="5336" />
+  <stop tag="4445" />
+  <stop tag="6294" />
+  <stop tag="6290" />
+</direction>
+<path>
+<tag id="80X_IB2_3162_6290"/>
+<point lat="37.77706" lon="-122.39487"/>
+<point lat="37.77708" lon="-122.39499"/>
+<point lat="37.78151" lon="-122.38939"/>
+<point lat="37.78165" lon="-122.38917"/>
+<point lat="37.78179" lon="-122.38876"/>
+<point lat="37.78179" lon="-122.38831"/>
+<point lat="37.78323" lon="-122.38815"/>
+<point lat="37.7871" lon="-122.38787"/>
+<point lat="37.7871" lon="-122.3884"/>
+<point lat="37.78705" lon="-122.38859"/>
+<point lat="37.78689" lon="-122.38879"/>
+<point lat="37.79061" lon="-122.39333"/>
+<point lat="37.79253" lon="-122.39567"/>
+<point lat="37.79309" lon="-122.39651"/>
+<point lat="37.79325" lon="-122.3963"/>
+<point lat="37.79398" lon="-122.39635"/>
+<point lat="37.79458" lon="-122.39659"/>
+<point lat="37.7945" lon="-122.39761"/>
+<point lat="37.79414" lon="-122.40018"/>
+</path>
+</route>
+</body>

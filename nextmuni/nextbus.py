@@ -8,21 +8,15 @@ import model
 
 
 __author__ = 'Jeremy Latt <jeremy.latt@gmail.com>'
-route_list_url = 'http://webservices.nextbus.com/service/publicXMLFeed?command=routeList&a=sf-muni'
 log = logging.getLogger('nextmuni.nextbus')
-
-
-def route_config_url(route_tag):
-    return 'http://webservices.nextbus.com/service/publicXMLFeed?command=routeConfig&a=sf-muni&r=' + route_tag
 
 
 def element_to_point(element):
     return db.GeoPt(float(element.getAttribute('lat')), float(element.getAttribute('lon')))
 
 
-def route_list():
+def route_list(resource):
     """Create routes."""
-    resource = urllib.urlopen(route_list_url)
     doc = minidom.parse(resource)
 
     def to_route(element):
@@ -38,9 +32,9 @@ def route_list():
     return routes
 
 
-def route_config(route_tag):
+def route_config(resource):
     """Create stops, directions, and paths for a route."""
-    resource = urllib.urlopen(route_config_url(route_tag))
+
     doc = minidom.parse(resource)
 
     # create stops

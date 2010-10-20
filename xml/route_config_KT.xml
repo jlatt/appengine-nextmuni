@@ -1,0 +1,1241 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<body copyright="All data copyright San Francisco Muni 2010.">
+<route tag="KT" title="KT-Ingleside/Third Street" color="cc0033" oppositeColor="ffffff" latMin="37.7089999" latMax="37.7932299" lonMin="-122.4718199" lonMax="-122.38744">
+<stop tag="7398" title="Bay Shore Blvd &amp; Sunnydale Ave." dirTag="KT__OB1" lat="37.7089999" lon="-122.40502" stopId="17398"/>
+<stop tag="7399" title="Bayshore &amp; Arleta/Blanken" dirTag="KT__OB1" lat="37.7122299" lon="-122.40234" stopId="17399"/>
+<stop tag="7400" title="Third Street &amp; Le Conte Ave" dirTag="KT__OB1" lat="37.71881" lon="-122.39747" stopId="17400"/>
+<stop tag="7347" title="Third Street &amp; Gilman Ave" dirTag="KT__OB1" lat="37.72245" lon="-122.3956099" stopId="17347"/>
+<stop tag="7343" title="Third Street &amp; Carroll Ave" dirTag="KT__OB1" lat="37.7254899" lon="-122.39422" stopId="17343"/>
+<stop tag="7345" title="Third Street &amp; Van Dyke Ave" dirTag="KT__OB1" lat="37.7292899" lon="-122.3926" stopId="17345"/>
+<stop tag="7401" title="Third Street &amp; Revere/Shafter" dirTag="KT__OB1" lat="37.73226" lon="-122.39151" stopId="17401"/>
+<stop tag="7402" title="Third Street &amp; Oakdale/Palou" dirTag="KT__OB1" lat="37.7343599" lon="-122.39084" stopId="17402"/>
+<stop tag="7403" title="Third Street &amp; Kirkwood/La Salle" dirTag="KT__OB1" lat="37.73764" lon="-122.3896899" stopId="17403"/>
+<stop tag="7404" title="Third Street &amp; Hudson/Innes Ave" dirTag="KT__OB1" lat="37.73992" lon="-122.3888799" stopId="17404"/>
+<stop tag="7352" title="Third Street &amp; Evans Ave" dirTag="KT__OB1" lat="37.7427299" lon="-122.38792" stopId="17352"/>
+<stop tag="7353" title="Third Street &amp; Marin St" dirTag="KT__OB1" lat="37.7489999" lon="-122.38744" stopId="17353"/>
+<stop tag="7354" title="Third Street &amp; 23rd St" dirTag="KT__OB1" lat="37.7554099" lon="-122.3879999" stopId="17354"/>
+<stop tag="7355" title="Third Street &amp; 20th St" dirTag="KT__OB1" lat="37.7605199" lon="-122.38856" stopId="17355"/>
+<stop tag="7356" title="Third Street &amp; Mariposa St" dirTag="KT__OB1" lat="37.76439" lon="-122.38885" stopId="17356"/>
+<stop tag="7357" title="Third Street &amp; Gene Friend Wy" dirTag="KT__OB1" lat="37.7690499" lon="-122.3893099" stopId="17357"/>
+<stop tag="7358" title="Third Street &amp; Mission Rock St" dirTag="KT__OB1" lat="37.7729899" lon="-122.3897199" stopId="17358"/>
+<stop tag="7166" title="4th Street &amp; King Street" dirTag="KT__OB1" lat="37.7762799" lon="-122.39386" stopId="17166"/>
+<stop tag="5237" title="King St &amp; 2nd St" dirTag="KT__OB1" lat="37.7796199" lon="-122.38982" stopId="15237"/>
+<stop tag="7145" title="The Embarcadero &amp; Brannan St" dirTag="KT__OB1" lat="37.78463" lon="-122.3879799" stopId="17145"/>
+<stop tag="4510" title="Embarcadero Folsom St" dirTag="KT__OB1" lat="37.79075" lon="-122.38984" stopId="14510"/>
+<stop tag="7217" title="Embarcadero Station OB" dirTag="KT__OB1" lat="37.7932299" lon="-122.39654" stopId="17217"/>
+<stop tag="6994" title="Montgomery Station Outbound" dirTag="KT__OB1" lat="37.7887899" lon="-122.40213" stopId="16994"/>
+<stop tag="6995" title="Powell Station Outbound" dirTag="KT__OB1" lat="37.7842999" lon="-122.40782" stopId="16995"/>
+<stop tag="6997" title="Civic Center Station Outbound" dirTag="KT__OB1" lat="37.7786799" lon="-122.41499" stopId="16997"/>
+<stop tag="6996" title="Van Ness Station OB" dirTag="KT__OB1" lat="37.7752299" lon="-122.41934" stopId="16996"/>
+<stop tag="6998" title="Church St Station Outbound" dirTag="KT__OB1" lat="37.7673299" lon="-122.42932" stopId="16998"/>
+<stop tag="6991" title="Castro Station Outbound" dirTag="KT__OB1" lat="37.7626799" lon="-122.43529" stopId="16991"/>
+<stop tag="6993" title="Forest Hill Station Outbound" dirTag="KT__OB1" lat="37.7481699" lon="-122.45919" stopId="16993"/>
+<stop tag="6739" title="West Portal Station" dirTag="KT__OB1" lat="37.7409599" lon="-122.4658" stopId="16739"/>
+<stop tag="7058" title="West Portal Ave &amp; Ulloa St" dirTag="KT__OB1" lat="37.7408899" lon="-122.46585" stopId="17058"/>
+<stop tag="7125" title="West Portal Ave &amp; 14th Ave" dirTag="KT__OB1" lat="37.7380599" lon="-122.46898" stopId="17125"/>
+<stop tag="6503" title="Saint Francis Circle" dirTag="KT__OB1" lat="37.7348099" lon="-122.47162" stopId="16503"/>
+<stop tag="7114" title="Junipero Serra Blvd &amp; Ocean Ave" dirTag="KT__OB1" lat="37.73127" lon="-122.4718199" stopId="17114"/>
+<stop tag="5807" title="Ocean Ave &amp; San Leandro Way" dirTag="KT__OB1" lat="37.7299499" lon="-122.4694699" stopId="15807"/>
+<stop tag="5780" title="Ocean Ave &amp; Aptos Ave" dirTag="KT__OB1" lat="37.7283799" lon="-122.4678699" stopId="15780"/>
+<stop tag="5786" title="Ocean Ave &amp; Cerritos Ave" dirTag="KT__OB1" lat="37.7272499" lon="-122.4667599" stopId="15786"/>
+<stop tag="5808" title="Ocean Ave &amp; Victoria St" dirTag="KT__OB1" lat="37.72603" lon="-122.46434" stopId="15808"/>
+<stop tag="5793" title="Ocean Ave &amp; Jules Ave" dirTag="KT__OB1" lat="37.72496" lon="-122.46139" stopId="15793"/>
+<stop tag="5798" title="Ocean Ave &amp; Miramar Ave" dirTag="KT__OB1" lat="37.7242599" lon="-122.4583099" stopId="15798"/>
+<stop tag="5795" title="Ocean Ave &amp; Lee St" dirTag="KT__OB1" lat="37.7234499" lon="-122.4542199" stopId="15795"/>
+<stop tag="5785" title="City College Pedestrian Bridge" dirTag="KT__OB1" lat="37.72295" lon="-122.45087" stopId="15785"/>
+<stop tag="35418" title="Metro Terminal" dirTag="KT__OB1" lat="37.7208799" lon="-122.44665" stopId="135418"/>
+<stop tag="5418" title="Metro Terminal" dirTag="KT__IB1" lat="37.7208799" lon="-122.44665" stopId="15418"/>
+<stop tag="5784" title="City College Pedestrian Bridge" dirTag="KT__IB1" lat="37.7230399" lon="-122.4514499" stopId="15784"/>
+<stop tag="5794" title="Ocean Ave &amp; Lee St" dirTag="KT__IB1" lat="37.7234599" lon="-122.4539999" stopId="15794"/>
+<stop tag="5797" title="Ocean Ave &amp; Miramar Ave" dirTag="KT__IB1" lat="37.72439" lon="-122.45808" stopId="15797"/>
+<stop tag="5787" title="Ocean Ave &amp; Dorado Ter" dirTag="KT__IB1" lat="37.7249599" lon="-122.4610599" stopId="15787"/>
+<stop tag="5788" title="Ocean Ave &amp; Fairfield Way" dirTag="KT__IB1" lat="37.7260099" lon="-122.4640699" stopId="15788"/>
+<stop tag="5809" title="Ocean Ave &amp; Westgate Dr" dirTag="KT__IB1" lat="37.7271999" lon="-122.4664799" stopId="15809"/>
+<stop tag="5779" title="Ocean Ave &amp; Aptos Ave" dirTag="KT__IB1" lat="37.7282899" lon="-122.4675599" stopId="15779"/>
+<stop tag="5806" title="Ocean Ave &amp; San Leandro Way" dirTag="KT__IB1" lat="37.7299899" lon="-122.4690999" stopId="15806"/>
+<stop tag="7113" title="Ocean Ave &amp; Junipero Serra Blvd" dirTag="KT__IB1" lat="37.7316299" lon="-122.47171" stopId="17113"/>
+<stop tag="7109" title="Saint Francis Circle" dirTag="KT__IB1" lat="37.7348299" lon="-122.47145" stopId="17109"/>
+<stop tag="6898" title="West Portal Ave &amp; 14th Ave" dirTag="KT__IB1" lat="37.73786" lon="-122.4690399" stopId="16898"/>
+<stop tag="6740" title="West Portal Station" dirTag="KT__IB1" lat="37.7409199" lon="-122.46578" stopId="16740"/>
+<stop tag="5730" title="Forest Hill Station Inbound" dirTag="KT__IB1" lat="37.74835" lon="-122.4586199" stopId="15730"/>
+<stop tag="5728" title="Castro Station Inbound" dirTag="KT__IB1" lat="37.7625799" lon="-122.43523" stopId="15728"/>
+<stop tag="5726" title="Church St Station Inbound" dirTag="KT__IB1" lat="37.7671899" lon="-122.42917" stopId="15726"/>
+<stop tag="5419" title="Van Ness Station Inbound" dirTag="KT__IB1" lat="37.7750699" lon="-122.41919" stopId="15419"/>
+<stop tag="5727" title="Civic Center Station Inbound" dirTag="KT__IB1" lat="37.77854" lon="-122.4148099" stopId="15727"/>
+<stop tag="5417" title="Powell Station Inbound" dirTag="KT__IB1" lat="37.7842" lon="-122.4076899" stopId="15417"/>
+<stop tag="5731" title="Montgomery Station Inbound" dirTag="KT__IB1" lat="37.7886999" lon="-122.40192" stopId="15731"/>
+<stop tag="6992" title="Embarcadero Station Arr" dirTag="KT__IB1" lat="37.7931399" lon="-122.3964" stopId="16992"/>
+<stop tag="4509" title="The Embarcadero &amp; Folsom St" dirTag="KT__IB1" lat="37.7904799" lon="-122.3896899" stopId="14509"/>
+<stop tag="4506" title="The Embarcadero &amp; Brannan St" dirTag="KT__IB1" lat="37.78436" lon="-122.3881399" stopId="14506"/>
+<stop tag="5234" title="King St &amp; 2nd St" dirTag="KT__IB1" lat="37.7797199" lon="-122.38987" stopId="15234"/>
+<stop tag="7397" title="4th Street &amp; King Street" dirTag="KT__IB1" lat="37.7762499" lon="-122.39404" stopId="17397"/>
+<stop tag="7359" title="Third Street &amp; Mission Rock St" dirTag="KT__IB1" lat="37.77283" lon="-122.38972" stopId="17359"/>
+<stop tag="7360" title="Third Street &amp; Gene Friend Wy" dirTag="KT__IB1" lat="37.7685399" lon="-122.3892699" stopId="17360"/>
+<stop tag="7361" title="Third Street &amp; Mariposa St" dirTag="KT__IB1" lat="37.76424" lon="-122.38886" stopId="17361"/>
+<stop tag="7362" title="Third Street &amp; 20th St" dirTag="KT__IB1" lat="37.7603799" lon="-122.38856" stopId="17362"/>
+<stop tag="7363" title="Third Street &amp; 23rd St" dirTag="KT__IB1" lat="37.75529" lon="-122.38801" stopId="17363"/>
+<stop tag="7364" title="Third Street &amp; Marin St" dirTag="KT__IB1" lat="37.7490799" lon="-122.38748" stopId="17364"/>
+<stop tag="7365" title="Third Street &amp; Evans Ave" dirTag="KT__IB1" lat="37.7427299" lon="-122.38803" stopId="17365"/>
+<stop tag="7390" title="Third Street &amp; Hudson/Innes Ave" dirTag="KT__IB1" lat="37.73992" lon="-122.3889099" stopId="17390"/>
+<stop tag="7391" title="Third Street &amp; Kirkwood/La Salle" dirTag="KT__IB1" lat="37.7376399" lon="-122.38971" stopId="17391"/>
+<stop tag="7392" title="Third Street &amp; Oakdale/Palou" dirTag="KT__IB1" lat="37.73435" lon="-122.3908599" stopId="17392"/>
+<stop tag="7393" title="Third Street &amp; Revere/Shafter" dirTag="KT__IB1" lat="37.7322799" lon="-122.3915399" stopId="17393"/>
+<stop tag="7346" title="Third Street &amp; Williams Ave" dirTag="KT__IB1" lat="37.72926" lon="-122.3926399" stopId="17346"/>
+<stop tag="7344" title="Third Street &amp; Carrol Ave" dirTag="KT__IB1" lat="37.7254599" lon="-122.39426" stopId="17344"/>
+<stop tag="7342" title="Third Street &amp; Paul Ave" dirTag="KT__IB1" lat="37.7224099" lon="-122.39564" stopId="17342"/>
+<stop tag="7394" title="Third Street &amp; Le Conte Ave" dirTag="KT__IB1" lat="37.718829" lon="-122.3974819" stopId="17394"/>
+<stop tag="7395" title="Bayshore &amp; Arleta/Blanken" dirTag="KT__IB1" lat="37.71225" lon="-122.4023199" stopId="17395"/>
+<direction tag="KT_IBMTME" title="Inbound to Metro East Garage" name="Inbound" useForUI="false">
+  <stop tag="5418" />
+  <stop tag="5784" />
+  <stop tag="5794" />
+  <stop tag="5797" />
+  <stop tag="5787" />
+  <stop tag="5788" />
+  <stop tag="5809" />
+  <stop tag="5779" />
+  <stop tag="5806" />
+  <stop tag="7113" />
+  <stop tag="7109" />
+  <stop tag="6898" />
+  <stop tag="7058" />
+  <stop tag="6740" />
+  <stop tag="5730" />
+  <stop tag="5728" />
+  <stop tag="5726" />
+  <stop tag="5419" />
+  <stop tag="5727" />
+  <stop tag="5417" />
+  <stop tag="5731" />
+  <stop tag="6992" />
+  <stop tag="4509" />
+  <stop tag="4506" />
+  <stop tag="5234" />
+  <stop tag="7397" />
+  <stop tag="7359" />
+  <stop tag="7360" />
+  <stop tag="7361" />
+  <stop tag="7362" />
+  <stop tag="7363" />
+</direction>
+<direction tag="KT_IBEMSU" title="Inbound to Visitacion Valley via Downtown" name="Inbound" useForUI="false">
+  <stop tag="6992" />
+  <stop tag="5234" />
+  <stop tag="7397" />
+  <stop tag="7359" />
+  <stop tag="7360" />
+  <stop tag="7361" />
+  <stop tag="7362" />
+  <stop tag="7363" />
+  <stop tag="7364" />
+  <stop tag="7365" />
+  <stop tag="7390" />
+  <stop tag="7391" />
+  <stop tag="7392" />
+  <stop tag="7393" />
+  <stop tag="7346" />
+  <stop tag="7344" />
+  <stop tag="7342" />
+  <stop tag="7394" />
+  <stop tag="7395" />
+</direction>
+<direction tag="KT__IBWP1" title="Inbound to West Portal Station" name="Inbound" useForUI="false">
+  <stop tag="5418" />
+  <stop tag="5784" />
+  <stop tag="5794" />
+  <stop tag="5797" />
+  <stop tag="5787" />
+  <stop tag="5788" />
+  <stop tag="5809" />
+  <stop tag="5779" />
+  <stop tag="5806" />
+  <stop tag="7113" />
+  <stop tag="7109" />
+  <stop tag="6898" />
+</direction>
+<direction tag="KT_IBMESU" title="Inbound to Visitacion Valley via Downtown" name="Inbound" useForUI="false">
+  <stop tag="7364" />
+  <stop tag="7365" />
+  <stop tag="7390" />
+  <stop tag="7391" />
+  <stop tag="7392" />
+  <stop tag="7393" />
+  <stop tag="7346" />
+  <stop tag="7344" />
+  <stop tag="7342" />
+  <stop tag="7394" />
+  <stop tag="7395" />
+</direction>
+<direction tag="KT__IB3" title="Inbound to Downtown" name="Inbound" useForUI="false">
+  <stop tag="5418" />
+  <stop tag="5784" />
+  <stop tag="5794" />
+  <stop tag="5797" />
+  <stop tag="5787" />
+  <stop tag="5788" />
+  <stop tag="5809" />
+  <stop tag="5779" />
+  <stop tag="5806" />
+  <stop tag="7113" />
+  <stop tag="7109" />
+  <stop tag="6898" />
+  <stop tag="6740" />
+  <stop tag="5730" />
+  <stop tag="5728" />
+  <stop tag="5726" />
+  <stop tag="5419" />
+  <stop tag="5727" />
+  <stop tag="5417" />
+  <stop tag="5731" />
+  <stop tag="6992" />
+</direction>
+<direction tag="KT__IB4ME" title="Inbound to Metro East Garage" name="Inbound" useForUI="false">
+  <stop tag="7397" />
+  <stop tag="7359" />
+  <stop tag="7360" />
+  <stop tag="7361" />
+  <stop tag="7362" />
+  <stop tag="7363" />
+</direction>
+<direction tag="KT__IB1" title="Inbound to Visitacion Valley via Downtown" name="Inbound" useForUI="true">
+  <stop tag="5418" />
+  <stop tag="5784" />
+  <stop tag="5794" />
+  <stop tag="5797" />
+  <stop tag="5787" />
+  <stop tag="5788" />
+  <stop tag="5809" />
+  <stop tag="5779" />
+  <stop tag="5806" />
+  <stop tag="7113" />
+  <stop tag="7109" />
+  <stop tag="6898" />
+  <stop tag="6740" />
+  <stop tag="5730" />
+  <stop tag="5728" />
+  <stop tag="5726" />
+  <stop tag="5419" />
+  <stop tag="5727" />
+  <stop tag="5417" />
+  <stop tag="5731" />
+  <stop tag="6992" />
+  <stop tag="4509" />
+  <stop tag="4506" />
+  <stop tag="5234" />
+  <stop tag="7397" />
+  <stop tag="7359" />
+  <stop tag="7360" />
+  <stop tag="7361" />
+  <stop tag="7362" />
+  <stop tag="7363" />
+  <stop tag="7364" />
+  <stop tag="7365" />
+  <stop tag="7390" />
+  <stop tag="7391" />
+  <stop tag="7392" />
+  <stop tag="7393" />
+  <stop tag="7346" />
+  <stop tag="7344" />
+  <stop tag="7342" />
+  <stop tag="7394" />
+  <stop tag="7395" />
+</direction>
+<direction tag="KT_OBME4T" title="Outbound to Caltrain Depot" name="Outbound" useForUI="false">
+  <stop tag="7354" />
+  <stop tag="7355" />
+  <stop tag="7356" />
+  <stop tag="7357" />
+  <stop tag="7358" />
+  <stop tag="7166" />
+</direction>
+<direction tag="KT__OBEMB" title="Outbound to Balboa Park Station" name="Outbound" useForUI="false">
+  <stop tag="7217" />
+  <stop tag="6994" />
+  <stop tag="6995" />
+  <stop tag="6997" />
+  <stop tag="6996" />
+  <stop tag="6998" />
+  <stop tag="6991" />
+  <stop tag="6993" />
+  <stop tag="6739" />
+  <stop tag="7058" />
+  <stop tag="7125" />
+  <stop tag="6503" />
+  <stop tag="7114" />
+  <stop tag="5807" />
+  <stop tag="5780" />
+  <stop tag="5786" />
+  <stop tag="5808" />
+  <stop tag="5793" />
+  <stop tag="5798" />
+  <stop tag="5795" />
+  <stop tag="5785" />
+  <stop tag="35418" />
+</direction>
+<direction tag="KT_PISUME" title="Outbound to Metro East Garage" name="Outbound" useForUI="false">
+  <stop tag="7398" />
+  <stop tag="7399" />
+  <stop tag="7400" />
+  <stop tag="7347" />
+  <stop tag="7343" />
+  <stop tag="7345" />
+  <stop tag="7401" />
+  <stop tag="7402" />
+  <stop tag="7403" />
+  <stop tag="7404" />
+  <stop tag="7352" />
+  <stop tag="7353" />
+</direction>
+<direction tag="KT__OSUEM" title="Outbound to Downtown" name="Outbound" useForUI="false">
+  <stop tag="7398" />
+  <stop tag="7399" />
+  <stop tag="7400" />
+  <stop tag="7347" />
+  <stop tag="7343" />
+  <stop tag="7345" />
+  <stop tag="7401" />
+  <stop tag="7402" />
+  <stop tag="7403" />
+  <stop tag="7404" />
+  <stop tag="7352" />
+  <stop tag="7353" />
+  <stop tag="7354" />
+  <stop tag="7355" />
+  <stop tag="7356" />
+  <stop tag="7357" />
+  <stop tag="7358" />
+  <stop tag="7166" />
+  <stop tag="5237" />
+  <stop tag="7145" />
+  <stop tag="4510" />
+  <stop tag="7217" />
+</direction>
+<direction tag="KT_OBMEMT" title="Outbound to Balboa Park Station" name="Outbound" useForUI="false">
+  <stop tag="7354" />
+  <stop tag="7355" />
+  <stop tag="7356" />
+  <stop tag="7357" />
+  <stop tag="7358" />
+  <stop tag="7166" />
+  <stop tag="5237" />
+  <stop tag="7145" />
+  <stop tag="4510" />
+  <stop tag="7217" />
+  <stop tag="6994" />
+  <stop tag="6995" />
+  <stop tag="6997" />
+  <stop tag="6996" />
+  <stop tag="6998" />
+  <stop tag="6991" />
+  <stop tag="6993" />
+  <stop tag="6739" />
+  <stop tag="7058" />
+  <stop tag="7125" />
+  <stop tag="6503" />
+  <stop tag="7114" />
+  <stop tag="5807" />
+  <stop tag="5780" />
+  <stop tag="5786" />
+  <stop tag="5808" />
+  <stop tag="5793" />
+  <stop tag="5798" />
+  <stop tag="5795" />
+  <stop tag="5785" />
+  <stop tag="35418" />
+</direction>
+<direction tag="KT_IBMTEM" title="Inbound to Downtown" name="Inbound" useForUI="false">
+  <stop tag="5418" />
+  <stop tag="5784" />
+  <stop tag="5794" />
+  <stop tag="5797" />
+  <stop tag="5787" />
+  <stop tag="5788" />
+  <stop tag="5809" />
+  <stop tag="5779" />
+  <stop tag="5806" />
+  <stop tag="7113" />
+  <stop tag="7109" />
+  <stop tag="6898" />
+  <stop tag="7058" />
+  <stop tag="6740" />
+  <stop tag="5730" />
+  <stop tag="5728" />
+  <stop tag="5726" />
+  <stop tag="5419" />
+  <stop tag="5727" />
+  <stop tag="5417" />
+  <stop tag="5731" />
+  <stop tag="6992" />
+</direction>
+<direction tag="KT_IBEMME" title="Inbound to Metro East Garage" name="Inbound" useForUI="false">
+  <stop tag="6992" />
+  <stop tag="4509" />
+  <stop tag="4506" />
+  <stop tag="5234" />
+  <stop tag="7397" />
+  <stop tag="7359" />
+  <stop tag="7360" />
+  <stop tag="7361" />
+  <stop tag="7362" />
+  <stop tag="7363" />
+</direction>
+<direction tag="KT__OBWP3" title="Outbound to Balboa Park Station" name="Outbound" useForUI="false">
+  <stop tag="6739" />
+  <stop tag="7058" />
+  <stop tag="7125" />
+  <stop tag="6503" />
+  <stop tag="7114" />
+  <stop tag="5807" />
+  <stop tag="5780" />
+  <stop tag="5786" />
+  <stop tag="5808" />
+  <stop tag="5793" />
+  <stop tag="5798" />
+  <stop tag="5795" />
+  <stop tag="5785" />
+  <stop tag="35418" />
+</direction>
+<direction tag="KT__OB1" title="Outbound to Balboa Park Station" name="Outbound" useForUI="true">
+  <stop tag="7398" />
+  <stop tag="7399" />
+  <stop tag="7400" />
+  <stop tag="7347" />
+  <stop tag="7343" />
+  <stop tag="7345" />
+  <stop tag="7401" />
+  <stop tag="7402" />
+  <stop tag="7403" />
+  <stop tag="7404" />
+  <stop tag="7352" />
+  <stop tag="7353" />
+  <stop tag="7354" />
+  <stop tag="7355" />
+  <stop tag="7356" />
+  <stop tag="7357" />
+  <stop tag="7358" />
+  <stop tag="7166" />
+  <stop tag="5237" />
+  <stop tag="7145" />
+  <stop tag="4510" />
+  <stop tag="7217" />
+  <stop tag="6994" />
+  <stop tag="6995" />
+  <stop tag="6997" />
+  <stop tag="6996" />
+  <stop tag="6998" />
+  <stop tag="6991" />
+  <stop tag="6993" />
+  <stop tag="6739" />
+  <stop tag="7058" />
+  <stop tag="7125" />
+  <stop tag="6503" />
+  <stop tag="7114" />
+  <stop tag="5807" />
+  <stop tag="5780" />
+  <stop tag="5786" />
+  <stop tag="5808" />
+  <stop tag="5793" />
+  <stop tag="5798" />
+  <stop tag="5795" />
+  <stop tag="5785" />
+  <stop tag="35418" />
+</direction>
+<direction tag="KT__OBWP2" title="Outbound to Balboa Park Station" name="Outbound" useForUI="false">
+  <stop tag="7058" />
+  <stop tag="7125" />
+  <stop tag="6503" />
+  <stop tag="7114" />
+  <stop tag="5807" />
+  <stop tag="5780" />
+  <stop tag="5786" />
+  <stop tag="5808" />
+  <stop tag="5793" />
+  <stop tag="5798" />
+  <stop tag="5795" />
+  <stop tag="5785" />
+  <stop tag="35418" />
+</direction>
+<direction tag="KT__OBWP1" title="Outbound to Balboa Park Station" name="Outbound" useForUI="false">
+  <stop tag="7058" />
+  <stop tag="7125" />
+  <stop tag="6503" />
+  <stop tag="7114" />
+  <stop tag="5807" />
+  <stop tag="5780" />
+  <stop tag="5786" />
+  <stop tag="5808" />
+  <stop tag="5793" />
+  <stop tag="5798" />
+  <stop tag="5795" />
+  <stop tag="5785" />
+  <stop tag="35418" />
+</direction>
+<direction tag="KT_OBMEEM" title="Outbound to Downtown" name="Outbound" useForUI="false">
+  <stop tag="7354" />
+  <stop tag="7355" />
+  <stop tag="7356" />
+  <stop tag="7357" />
+  <stop tag="7358" />
+  <stop tag="7166" />
+  <stop tag="5237" />
+  <stop tag="7145" />
+  <stop tag="4510" />
+  <stop tag="7217" />
+</direction>
+<direction tag="KT_IBWPME" title="Inbound to Metro East Garage" name="Inbound" useForUI="false">
+  <stop tag="7058" />
+  <stop tag="6740" />
+  <stop tag="5730" />
+  <stop tag="5728" />
+  <stop tag="5726" />
+  <stop tag="5419" />
+  <stop tag="5727" />
+  <stop tag="5417" />
+  <stop tag="5731" />
+  <stop tag="6992" />
+  <stop tag="4509" />
+  <stop tag="4506" />
+  <stop tag="5234" />
+  <stop tag="7397" />
+  <stop tag="7359" />
+  <stop tag="7360" />
+  <stop tag="7361" />
+  <stop tag="7362" />
+  <stop tag="7363" />
+</direction>
+<direction tag="KT_OBMME" title="Outbound to Balboa Bart Station" name="Outbound" useForUI="false">
+  <stop tag="7354" />
+  <stop tag="7355" />
+  <stop tag="7356" />
+  <stop tag="7357" />
+  <stop tag="7358" />
+  <stop tag="7166" />
+  <stop tag="5237" />
+  <stop tag="7145" />
+  <stop tag="4510" />
+  <stop tag="7217" />
+  <stop tag="6994" />
+  <stop tag="6995" />
+  <stop tag="6997" />
+  <stop tag="6996" />
+  <stop tag="6998" />
+  <stop tag="6991" />
+  <stop tag="6993" />
+  <stop tag="6739" />
+  <stop tag="7058" />
+  <stop tag="7125" />
+  <stop tag="6503" />
+  <stop tag="7114" />
+  <stop tag="5807" />
+  <stop tag="5780" />
+  <stop tag="5786" />
+  <stop tag="5808" />
+  <stop tag="5793" />
+  <stop tag="5798" />
+  <stop tag="5795" />
+  <stop tag="5785" />
+  <stop tag="35418" />
+</direction>
+<path>
+<tag id="KT_IBMTME4_7109_7058"/>
+<tag id="KT_IBMTEM4_7109_7058"/>
+<point lat="37.73483" lon="-122.47145"/>
+<point lat="37.735" lon="-122.47139"/>
+<point lat="37.73659" lon="-122.47056"/>
+<point lat="37.7372299" lon="-122.4699"/>
+<point lat="37.73786" lon="-122.46904"/>
+<point lat="37.73972" lon="-122.46698"/>
+<point lat="37.74089" lon="-122.46585"/>
+</path>
+<path>
+<tag id="KT__OB14_7343_7352"/>
+<tag id="KT__OSUEM4_7343_7352"/>
+<tag id="KT_PISUME4_7343_7352"/>
+<point lat="37.72549" lon="-122.39422"/>
+<point lat="37.7284999" lon="-122.3929"/>
+<point lat="37.72929" lon="-122.3926"/>
+<point lat="37.73165" lon="-122.3918"/>
+<point lat="37.73175" lon="-122.3917"/>
+<point lat="37.7322599" lon="-122.39151"/>
+<point lat="37.73243" lon="-122.39152"/>
+<point lat="37.73436" lon="-122.39084"/>
+<point lat="37.73764" lon="-122.38969"/>
+<point lat="37.73953" lon="-122.38903"/>
+<point lat="37.73992" lon="-122.38888"/>
+<point lat="37.74273" lon="-122.38792"/>
+</path>
+<path>
+<tag id="KT_OBMEMT16_7058_6503"/>
+<tag id="KT__OBWP22_7058_6503"/>
+<tag id="KT__OBWP34_7058_6503"/>
+<tag id="KT_OBMME16_7058_6503"/>
+<tag id="KT__OB122_7058_6503"/>
+<tag id="KT__OBWP12_7058_6503"/>
+<tag id="KT__OBEMB10_7058_6503"/>
+<point lat="37.74089" lon="-122.46585"/>
+<point lat="37.73806" lon="-122.46898"/>
+<point lat="37.73659" lon="-122.47056"/>
+<point lat="37.73481" lon="-122.47162"/>
+</path>
+<path>
+<tag id="KT_IBWPME8_5419_6992"/>
+<tag id="KT__IB110_5419_6992"/>
+<tag id="KT__IB310_5419_6992"/>
+<tag id="KT_IBMTME12_5419_6992"/>
+<tag id="KT_IBMTEM12_5419_6992"/>
+<point lat="37.77507" lon="-122.41919"/>
+<point lat="37.77749" lon="-122.41629"/>
+<point lat="37.77854" lon="-122.41481"/>
+<point lat="37.78119" lon="-122.41162"/>
+<point lat="37.7842" lon="-122.40769"/>
+<point lat="37.78764" lon="-122.40343"/>
+<point lat="37.7887" lon="-122.40192"/>
+<point lat="37.7903" lon="-122.40007"/>
+<point lat="37.79102" lon="-122.39915"/>
+<point lat="37.79314" lon="-122.3964"/>
+</path>
+<path>
+<tag id="KT_OBMME8_7217_6996"/>
+<tag id="KT_OBMEMT8_7217_6996"/>
+<tag id="KT__OB114_7217_6996"/>
+<tag id="KT__OBEMB2_7217_6996"/>
+<point lat="37.79323" lon="-122.39654"/>
+<point lat="37.79102" lon="-122.39915"/>
+<point lat="37.7903" lon="-122.40007"/>
+<point lat="37.78879" lon="-122.40213"/>
+<point lat="37.7843" lon="-122.40782"/>
+<point lat="37.78119" lon="-122.41162"/>
+<point lat="37.77868" lon="-122.41499"/>
+<point lat="37.77523" lon="-122.41934"/>
+</path>
+<path>
+<tag id="KT__IB38_5728_5419"/>
+<tag id="KT_IBWPME6_5728_5419"/>
+<tag id="KT_IBMTEM10_5728_5419"/>
+<tag id="KT_IBMTME10_5728_5419"/>
+<tag id="KT__IB18_5728_5419"/>
+<point lat="37.76258" lon="-122.43523"/>
+<point lat="37.7642" lon="-122.43308"/>
+<point lat="37.76719" lon="-122.42917"/>
+<point lat="37.76961" lon="-122.42631"/>
+<point lat="37.77507" lon="-122.41919"/>
+</path>
+<path>
+<tag id="KT_OBMEMT18_6503_35418"/>
+<tag id="KT_OBMME18_6503_35418"/>
+<tag id="KT__OB124_6503_35418"/>
+<tag id="KT__OBWP36_6503_35418"/>
+<tag id="KT__OBWP14_6503_35418"/>
+<tag id="KT__OBWP24_6503_35418"/>
+<tag id="KT__OBEMB12_6503_35418"/>
+<point lat="37.73481" lon="-122.47162"/>
+<point lat="37.73471" lon="-122.47156"/>
+<point lat="37.73127" lon="-122.47182"/>
+<point lat="37.7310299" lon="-122.47179"/>
+<point lat="37.72995" lon="-122.46947"/>
+<point lat="37.72984" lon="-122.4689"/>
+<point lat="37.72961" lon="-122.4686"/>
+<point lat="37.72922" lon="-122.4682"/>
+<point lat="37.72898" lon="-122.46806"/>
+<point lat="37.72838" lon="-122.46787"/>
+<point lat="37.72833" lon="-122.46773"/>
+<point lat="37.72778" lon="-122.46732"/>
+<point lat="37.72725" lon="-122.46676"/>
+<point lat="37.72679" lon="-122.46607"/>
+<point lat="37.72603" lon="-122.46434"/>
+<point lat="37.72548" lon="-122.46281"/>
+<point lat="37.72496" lon="-122.46139"/>
+<point lat="37.72426" lon="-122.45831"/>
+<point lat="37.72397" lon="-122.45651"/>
+<point lat="37.72345" lon="-122.45422"/>
+<point lat="37.72301" lon="-122.45202"/>
+<point lat="37.72295" lon="-122.45087"/>
+<point lat="37.72296" lon="-122.44955"/>
+<point lat="37.72296" lon="-122.44728"/>
+<point lat="37.72292" lon="-122.44721"/>
+<point lat="37.72289" lon="-122.4472"/>
+<point lat="37.72283" lon="-122.4472"/>
+<point lat="37.72139" lon="-122.44741"/>
+<point lat="37.72123" lon="-122.44739"/>
+<point lat="37.72108" lon="-122.44728"/>
+<point lat="37.72088" lon="-122.44665"/>
+</path>
+<path>
+<tag id="KT__IB32_5418_7109"/>
+<tag id="KT_IBMTME2_5418_7109"/>
+<tag id="KT__IBWP12_5418_7109"/>
+<tag id="KT_IBMTEM2_5418_7109"/>
+<point lat="37.72088" lon="-122.44665"/>
+<point lat="37.72089" lon="-122.44657"/>
+<point lat="37.72251" lon="-122.44524"/>
+<point lat="37.72281" lon="-122.44501"/>
+<point lat="37.72286" lon="-122.44501"/>
+<point lat="37.72291" lon="-122.44508"/>
+<point lat="37.7229" lon="-122.44619"/>
+<point lat="37.72291" lon="-122.44708"/>
+<point lat="37.72293" lon="-122.44716"/>
+<point lat="37.72296" lon="-122.44721"/>
+<point lat="37.72296" lon="-122.44955"/>
+<point lat="37.72304" lon="-122.45145"/>
+<point lat="37.72301" lon="-122.45202"/>
+<point lat="37.72346" lon="-122.454"/>
+<point lat="37.72439" lon="-122.45808"/>
+<point lat="37.72496" lon="-122.46106"/>
+<point lat="37.72527" lon="-122.46221"/>
+<point lat="37.72548" lon="-122.46281"/>
+<point lat="37.72587" lon="-122.46384"/>
+<point lat="37.72601" lon="-122.46407"/>
+<point lat="37.72679" lon="-122.46607"/>
+<point lat="37.7272" lon="-122.46648"/>
+<point lat="37.72778" lon="-122.46732"/>
+<point lat="37.72804" lon="-122.46749"/>
+<point lat="37.72829" lon="-122.46756"/>
+<point lat="37.72833" lon="-122.46773"/>
+<point lat="37.72922" lon="-122.4682"/>
+<point lat="37.72984" lon="-122.4689"/>
+<point lat="37.72999" lon="-122.4691"/>
+<point lat="37.7310299" lon="-122.47179"/>
+<point lat="37.73163" lon="-122.47171"/>
+<point lat="37.73471" lon="-122.47156"/>
+<point lat="37.73483" lon="-122.47145"/>
+</path>
+<path>
+<tag id="KT__OBEMB4_6996_6991"/>
+<tag id="KT_OBMME10_6996_6991"/>
+<tag id="KT_OBMEMT10_6996_6991"/>
+<tag id="KT__OB116_6996_6991"/>
+<point lat="37.77523" lon="-122.41934"/>
+<point lat="37.7695999" lon="-122.42631"/>
+<point lat="37.76733" lon="-122.42932"/>
+<point lat="37.76268" lon="-122.43529"/>
+</path>
+<path>
+<tag id="KT_IBMTME14_6992_7397"/>
+<tag id="KT__IB112_6992_7397"/>
+<tag id="KT_IBWPME10_6992_7397"/>
+<point lat="37.79314" lon="-122.3964"/>
+<point lat="37.7943799" lon="-122.39482"/>
+<point lat="37.79442" lon="-122.39475"/>
+<point lat="37.79446" lon="-122.39466"/>
+<point lat="37.79448" lon="-122.39461"/>
+<point lat="37.7945" lon="-122.39449"/>
+<point lat="37.79451" lon="-122.39444"/>
+<point lat="37.79451" lon="-122.39424"/>
+<point lat="37.7945" lon="-122.39415"/>
+<point lat="37.79448" lon="-122.39407"/>
+<point lat="37.79445" lon="-122.39391"/>
+<point lat="37.7943799" lon="-122.39368"/>
+<point lat="37.79427" lon="-122.39342"/>
+<point lat="37.79415" lon="-122.3932"/>
+<point lat="37.79404" lon="-122.39303"/>
+<point lat="37.79392" lon="-122.39287"/>
+<point lat="37.79385" lon="-122.3928"/>
+<point lat="37.79363" lon="-122.39257"/>
+<point lat="37.7933" lon="-122.39221"/>
+<point lat="37.79286" lon="-122.3917"/>
+<point lat="37.79274" lon="-122.39153"/>
+<point lat="37.79263" lon="-122.39139"/>
+<point lat="37.79253" lon="-122.39127"/>
+<point lat="37.7924" lon="-122.39114"/>
+<point lat="37.79228" lon="-122.39104"/>
+<point lat="37.7922" lon="-122.39099"/>
+<point lat="37.792" lon="-122.3909"/>
+<point lat="37.79167" lon="-122.39076"/>
+<point lat="37.79151" lon="-122.39068"/>
+<point lat="37.7913" lon="-122.39054"/>
+<point lat="37.79116" lon="-122.39043"/>
+<point lat="37.7909" lon="-122.39019"/>
+<point lat="37.79048" lon="-122.38969"/>
+<point lat="37.78957" lon="-122.38848"/>
+<point lat="37.78946" lon="-122.38837"/>
+<point lat="37.7893" lon="-122.38825"/>
+<point lat="37.78901" lon="-122.38811"/>
+<point lat="37.78848" lon="-122.38795"/>
+<point lat="37.78826" lon="-122.38789"/>
+<point lat="37.78792" lon="-122.38782"/>
+<point lat="37.78436" lon="-122.38814"/>
+<point lat="37.78323" lon="-122.38815"/>
+<point lat="37.7817999" lon="-122.38831"/>
+<point lat="37.78149" lon="-122.38831"/>
+<point lat="37.78125" lon="-122.38835"/>
+<point lat="37.78105" lon="-122.3884"/>
+<point lat="37.78088" lon="-122.38848"/>
+<point lat="37.7807" lon="-122.3886"/>
+<point lat="37.78039" lon="-122.38887"/>
+<point lat="37.77986" lon="-122.38959"/>
+<point lat="37.77972" lon="-122.38987"/>
+<point lat="37.77812" lon="-122.39184"/>
+<point lat="37.77632" lon="-122.39404"/>
+<point lat="37.77625" lon="-122.39404"/>
+</path>
+<path>
+<tag id="KT_OBMME4_7355_7166"/>
+<tag id="KT_OBMEEM4_7355_7166"/>
+<tag id="KT__OSUEM10_7355_7166"/>
+<tag id="KT__OB110_7355_7166"/>
+<tag id="KT_OBME4T4_7355_7166"/>
+<tag id="KT_OBMEMT4_7355_7166"/>
+<point lat="37.76052" lon="-122.38856"/>
+<point lat="37.76177" lon="-122.38869"/>
+<point lat="37.76439" lon="-122.38885"/>
+<point lat="37.76691" lon="-122.3891"/>
+<point lat="37.76905" lon="-122.38931"/>
+<point lat="37.7669" lon="-122.3891"/>
+<point lat="37.77299" lon="-122.38972"/>
+<point lat="37.77482" lon="-122.3899"/>
+<point lat="37.7746799" lon="-122.39191"/>
+<point lat="37.77579" lon="-122.39335"/>
+<point lat="37.77628" lon="-122.39386"/>
+</path>
+<path>
+<tag id="KT_IBEMSU12_7344_7395"/>
+<tag id="KT__IB122_7344_7395"/>
+<tag id="KT_IBMESU6_7344_7395"/>
+<point lat="37.72546" lon="-122.39426"/>
+<point lat="37.72241" lon="-122.39564"/>
+<point lat="37.72072" lon="-122.39639"/>
+<point lat="37.71948" lon="-122.39696"/>
+<point lat="37.71884" lon="-122.39748"/>
+<point lat="37.71873" lon="-122.3975"/>
+<point lat="37.71819" lon="-122.39798"/>
+<point lat="37.71779" lon="-122.39817"/>
+<point lat="37.71747" lon="-122.39824"/>
+<point lat="37.71662" lon="-122.39824"/>
+<point lat="37.71631" lon="-122.39831"/>
+<point lat="37.71599" lon="-122.39849"/>
+<point lat="37.71546" lon="-122.39884"/>
+<point lat="37.71534" lon="-122.39899"/>
+<point lat="37.71437" lon="-122.39936"/>
+<point lat="37.71361" lon="-122.40008"/>
+<point lat="37.71297" lon="-122.40077"/>
+<point lat="37.7128" lon="-122.40092"/>
+<point lat="37.71255" lon="-122.40129"/>
+<point lat="37.71241" lon="-122.40164"/>
+<point lat="37.7123" lon="-122.40213"/>
+<point lat="37.71225" lon="-122.40232"/>
+</path>
+<path>
+<tag id="KT__OSUEM12_7166_7217"/>
+<point lat="37.77628" lon="-122.39386"/>
+<point lat="37.77632" lon="-122.39404"/>
+<point lat="37.77812" lon="-122.39184"/>
+<point lat="37.77962" lon="-122.38982"/>
+<point lat="37.78039" lon="-122.38887"/>
+<point lat="37.7807" lon="-122.3886"/>
+<point lat="37.78088" lon="-122.38848"/>
+<point lat="37.78105" lon="-122.3884"/>
+<point lat="37.78125" lon="-122.38835"/>
+<point lat="37.78149" lon="-122.38831"/>
+<point lat="37.7817999" lon="-122.38831"/>
+<point lat="37.78323" lon="-122.38815"/>
+<point lat="37.78463" lon="-122.38798"/>
+<point lat="37.7871" lon="-122.38786"/>
+<point lat="37.78792" lon="-122.38782"/>
+<point lat="37.78826" lon="-122.38789"/>
+<point lat="37.78848" lon="-122.38795"/>
+<point lat="37.78901" lon="-122.38811"/>
+<point lat="37.7893" lon="-122.38825"/>
+<point lat="37.78946" lon="-122.38837"/>
+<point lat="37.78957" lon="-122.38848"/>
+<point lat="37.79075" lon="-122.38984"/>
+<point lat="37.7912899" lon="-122.39049"/>
+<point lat="37.79159" lon="-122.39071"/>
+<point lat="37.7920299" lon="-122.39084"/>
+<point lat="37.79226" lon="-122.39095"/>
+<point lat="37.79272" lon="-122.39148"/>
+<point lat="37.79305" lon="-122.39211"/>
+<point lat="37.79352" lon="-122.39277"/>
+<point lat="37.79425" lon="-122.39396"/>
+<point lat="37.79448" lon="-122.39475"/>
+<point lat="37.79378" lon="-122.39562"/>
+<point lat="37.79323" lon="-122.39654"/>
+</path>
+<path>
+<tag id="KT__OB12_7398_7343"/>
+<tag id="KT__OSUEM2_7398_7343"/>
+<tag id="KT_PISUME2_7398_7343"/>
+<point lat="37.709" lon="-122.40502"/>
+<point lat="37.71179" lon="-122.40321"/>
+<point lat="37.71197" lon="-122.40301"/>
+<point lat="37.71209" lon="-122.40279"/>
+<point lat="37.7121799" lon="-122.40246"/>
+<point lat="37.71223" lon="-122.40234"/>
+<point lat="37.7123" lon="-122.40213"/>
+<point lat="37.71241" lon="-122.40164"/>
+<point lat="37.71255" lon="-122.40129"/>
+<point lat="37.7128" lon="-122.40092"/>
+<point lat="37.71297" lon="-122.40077"/>
+<point lat="37.71361" lon="-122.40008"/>
+<point lat="37.71437" lon="-122.39936"/>
+<point lat="37.71534" lon="-122.39899"/>
+<point lat="37.71546" lon="-122.39884"/>
+<point lat="37.71599" lon="-122.39849"/>
+<point lat="37.71631" lon="-122.39831"/>
+<point lat="37.71662" lon="-122.39824"/>
+<point lat="37.71747" lon="-122.39824"/>
+<point lat="37.71779" lon="-122.39817"/>
+<point lat="37.71819" lon="-122.39798"/>
+<point lat="37.71873" lon="-122.3975"/>
+<point lat="37.71881" lon="-122.39747"/>
+<point lat="37.71884" lon="-122.39748"/>
+<point lat="37.71948" lon="-122.39696"/>
+<point lat="37.72072" lon="-122.39639"/>
+<point lat="37.72245" lon="-122.39561"/>
+<point lat="37.72549" lon="-122.39422"/>
+</path>
+<path>
+<tag id="KT_OBMEEM6_7166_7217"/>
+<tag id="KT_OBMME6_7166_7217"/>
+<tag id="KT__OB112_7166_7217"/>
+<tag id="KT_OBMEMT6_7166_7217"/>
+<point lat="37.77628" lon="-122.39386"/>
+<point lat="37.77632" lon="-122.39404"/>
+<point lat="37.77812" lon="-122.39184"/>
+<point lat="37.77962" lon="-122.38982"/>
+<point lat="37.78039" lon="-122.38887"/>
+<point lat="37.7807" lon="-122.3886"/>
+<point lat="37.78088" lon="-122.38848"/>
+<point lat="37.78105" lon="-122.3884"/>
+<point lat="37.78125" lon="-122.38835"/>
+<point lat="37.78149" lon="-122.38831"/>
+<point lat="37.7817999" lon="-122.38831"/>
+<point lat="37.78323" lon="-122.38815"/>
+<point lat="37.78463" lon="-122.38798"/>
+<point lat="37.7871" lon="-122.38786"/>
+<point lat="37.78792" lon="-122.38782"/>
+<point lat="37.78826" lon="-122.38789"/>
+<point lat="37.78848" lon="-122.38795"/>
+<point lat="37.78901" lon="-122.38811"/>
+<point lat="37.7893" lon="-122.38825"/>
+<point lat="37.78946" lon="-122.38837"/>
+<point lat="37.78957" lon="-122.38848"/>
+<point lat="37.79075" lon="-122.38984"/>
+<point lat="37.7914" lon="-122.39049"/>
+<point lat="37.79161" lon="-122.39061"/>
+<point lat="37.79177" lon="-122.39069"/>
+<point lat="37.79204" lon="-122.3908"/>
+<point lat="37.7923" lon="-122.39094"/>
+<point lat="37.79244" lon="-122.39103"/>
+<point lat="37.79262" lon="-122.39114"/>
+<point lat="37.7927899" lon="-122.39126"/>
+<point lat="37.79291" lon="-122.39134"/>
+<point lat="37.79303" lon="-122.39145"/>
+<point lat="37.79322" lon="-122.39168"/>
+<point lat="37.79412" lon="-122.39269"/>
+<point lat="37.7942899" lon="-122.3929"/>
+<point lat="37.79437" lon="-122.39303"/>
+<point lat="37.79445" lon="-122.39317"/>
+<point lat="37.79452" lon="-122.39332"/>
+<point lat="37.79458" lon="-122.39347"/>
+<point lat="37.7947" lon="-122.39379"/>
+<point lat="37.79475" lon="-122.39398"/>
+<point lat="37.79477" lon="-122.39419"/>
+<point lat="37.79477" lon="-122.3944"/>
+<point lat="37.79475" lon="-122.39454"/>
+<point lat="37.79471" lon="-122.39459"/>
+<point lat="37.79464" lon="-122.39467"/>
+<point lat="37.79323" lon="-122.39654"/>
+</path>
+<path>
+<tag id="KT_IBWPME14_7362_7363"/>
+<tag id="KT__IB4ME4_7362_7363"/>
+<tag id="KT_IBEMME6_7362_7363"/>
+<tag id="KT_IBMTME18_7362_7363"/>
+<point lat="37.76038" lon="-122.38856"/>
+<point lat="37.75794" lon="-122.38832"/>
+<point lat="37.75529" lon="-122.38801"/>
+</path>
+<path>
+<tag id="KT_IBMTME16_7397_7362"/>
+<tag id="KT_IBEMSU4_7397_7362"/>
+<tag id="KT__IB114_7397_7362"/>
+<tag id="KT_IBEMME4_7397_7362"/>
+<tag id="KT_IBWPME12_7397_7362"/>
+<point lat="37.77625" lon="-122.39404"/>
+<point lat="37.77579" lon="-122.39336"/>
+<point lat="37.7746799" lon="-122.39191"/>
+<point lat="37.77482" lon="-122.3899"/>
+<point lat="37.77283" lon="-122.38972"/>
+<point lat="37.76854" lon="-122.38927"/>
+<point lat="37.7669" lon="-122.3891"/>
+<point lat="37.76424" lon="-122.38886"/>
+<point lat="37.76177" lon="-122.38869"/>
+<point lat="37.76038" lon="-122.38856"/>
+</path>
+<path>
+<tag id="KT_IBEMSU6_7362_7364"/>
+<tag id="KT__IB116_7362_7364"/>
+<point lat="37.76038" lon="-122.38856"/>
+<point lat="37.75794" lon="-122.38832"/>
+<point lat="37.75529" lon="-122.38801"/>
+<point lat="37.75156" lon="-122.38764"/>
+<point lat="37.74908" lon="-122.38748"/>
+</path>
+<path>
+<tag id="KT_OBMEMT2_7354_7355"/>
+<tag id="KT_OBMEEM2_7354_7355"/>
+<tag id="KT_OBMME2_7354_7355"/>
+<tag id="KT_OBME4T2_7354_7355"/>
+<point lat="37.75541" lon="-122.388"/>
+<point lat="37.76052" lon="-122.38856"/>
+</path>
+<path>
+<tag id="KT_PISUME6_7352_7353"/>
+<tag id="KT__OB16_7352_7353"/>
+<tag id="KT__OSUEM6_7352_7353"/>
+<point lat="37.74273" lon="-122.38792"/>
+<point lat="37.74412" lon="-122.38746"/>
+<point lat="37.74426" lon="-122.38738"/>
+<point lat="37.74507" lon="-122.38714"/>
+<point lat="37.74616" lon="-122.38718"/>
+<point lat="37.749" lon="-122.38744"/>
+</path>
+<path>
+<tag id="KT__OB18_7353_7355"/>
+<tag id="KT__OSUEM8_7353_7355"/>
+<point lat="37.749" lon="-122.38744"/>
+<point lat="37.75156" lon="-122.38764"/>
+<point lat="37.75541" lon="-122.388"/>
+<point lat="37.76052" lon="-122.38856"/>
+</path>
+<path>
+<tag id="KT_IBEMME2_6992_7397"/>
+<point lat="37.79314" lon="-122.3964"/>
+<point lat="37.79378" lon="-122.39562"/>
+<point lat="37.79448" lon="-122.39475"/>
+<point lat="37.79425" lon="-122.39396"/>
+<point lat="37.79352" lon="-122.39277"/>
+<point lat="37.79305" lon="-122.39211"/>
+<point lat="37.79272" lon="-122.39148"/>
+<point lat="37.79226" lon="-122.39095"/>
+<point lat="37.7920299" lon="-122.39084"/>
+<point lat="37.79159" lon="-122.39071"/>
+<point lat="37.7912899" lon="-122.39049"/>
+<point lat="37.7911" lon="-122.39032"/>
+<point lat="37.79048" lon="-122.38969"/>
+<point lat="37.78957" lon="-122.38848"/>
+<point lat="37.78946" lon="-122.38837"/>
+<point lat="37.7893" lon="-122.38825"/>
+<point lat="37.78901" lon="-122.38811"/>
+<point lat="37.78848" lon="-122.38795"/>
+<point lat="37.78826" lon="-122.38789"/>
+<point lat="37.78792" lon="-122.38782"/>
+<point lat="37.78436" lon="-122.38814"/>
+<point lat="37.78323" lon="-122.38815"/>
+<point lat="37.7817999" lon="-122.38831"/>
+<point lat="37.78149" lon="-122.38831"/>
+<point lat="37.78125" lon="-122.38835"/>
+<point lat="37.78105" lon="-122.3884"/>
+<point lat="37.78088" lon="-122.38848"/>
+<point lat="37.7807" lon="-122.3886"/>
+<point lat="37.78039" lon="-122.38887"/>
+<point lat="37.77986" lon="-122.38959"/>
+<point lat="37.77972" lon="-122.38987"/>
+<point lat="37.77812" lon="-122.39184"/>
+<point lat="37.77632" lon="-122.39404"/>
+<point lat="37.77625" lon="-122.39404"/>
+</path>
+<path>
+<tag id="KT_IBMTME8_6740_5728"/>
+<tag id="KT__IB16_6740_5728"/>
+<tag id="KT_IBWPME4_6740_5728"/>
+<tag id="KT_IBMTEM8_6740_5728"/>
+<tag id="KT__IB36_6740_5728"/>
+<point lat="37.74092" lon="-122.46578"/>
+<point lat="37.74374" lon="-122.46368"/>
+<point lat="37.74828" lon="-122.45876"/>
+<point lat="37.74835" lon="-122.45862"/>
+<point lat="37.75242" lon="-122.45512"/>
+<point lat="37.75883" lon="-122.44105"/>
+<point lat="37.76258" lon="-122.43523"/>
+</path>
+<path>
+<tag id="KT__IB120_7365_7344"/>
+<tag id="KT_IBMESU4_7365_7344"/>
+<tag id="KT_IBEMSU10_7365_7344"/>
+<point lat="37.74273" lon="-122.38803"/>
+<point lat="37.73992" lon="-122.38891"/>
+<point lat="37.73953" lon="-122.38903"/>
+<point lat="37.73764" lon="-122.38971"/>
+<point lat="37.73435" lon="-122.39086"/>
+<point lat="37.73243" lon="-122.39152"/>
+<point lat="37.73228" lon="-122.39154"/>
+<point lat="37.7322599" lon="-122.39151"/>
+<point lat="37.73175" lon="-122.3917"/>
+<point lat="37.73165" lon="-122.3918"/>
+<point lat="37.7292599" lon="-122.39264"/>
+<point lat="37.7284999" lon="-122.3929"/>
+<point lat="37.72774" lon="-122.39323"/>
+<point lat="37.72546" lon="-122.39426"/>
+</path>
+<path>
+<tag id="KT_IBEMSU2_6992_7397"/>
+<point lat="37.79314" lon="-122.3964"/>
+<point lat="37.79378" lon="-122.39562"/>
+<point lat="37.79448" lon="-122.39475"/>
+<point lat="37.79425" lon="-122.39396"/>
+<point lat="37.79352" lon="-122.39277"/>
+<point lat="37.79305" lon="-122.39211"/>
+<point lat="37.79272" lon="-122.39148"/>
+<point lat="37.79226" lon="-122.39095"/>
+<point lat="37.7920299" lon="-122.39084"/>
+<point lat="37.79159" lon="-122.39071"/>
+<point lat="37.7912899" lon="-122.39049"/>
+<point lat="37.7911" lon="-122.39032"/>
+<point lat="37.79083" lon="-122.39001"/>
+<point lat="37.78957" lon="-122.38848"/>
+<point lat="37.78946" lon="-122.38837"/>
+<point lat="37.7893" lon="-122.38825"/>
+<point lat="37.78901" lon="-122.38811"/>
+<point lat="37.78848" lon="-122.38795"/>
+<point lat="37.78826" lon="-122.38789"/>
+<point lat="37.78792" lon="-122.38782"/>
+<point lat="37.78323" lon="-122.38815"/>
+<point lat="37.7817999" lon="-122.38831"/>
+<point lat="37.78149" lon="-122.38831"/>
+<point lat="37.78125" lon="-122.38835"/>
+<point lat="37.78105" lon="-122.3884"/>
+<point lat="37.78088" lon="-122.38848"/>
+<point lat="37.7807" lon="-122.3886"/>
+<point lat="37.78039" lon="-122.38887"/>
+<point lat="37.77986" lon="-122.38959"/>
+<point lat="37.77972" lon="-122.38987"/>
+<point lat="37.77812" lon="-122.39184"/>
+<point lat="37.77632" lon="-122.39404"/>
+<point lat="37.77625" lon="-122.39404"/>
+</path>
+<path>
+<tag id="KT_IBEMSU8_7364_7365"/>
+<tag id="KT__IB118_7364_7365"/>
+<tag id="KT_IBMESU2_7364_7365"/>
+<point lat="37.74908" lon="-122.38748"/>
+<point lat="37.74616" lon="-122.38718"/>
+<point lat="37.74507" lon="-122.38714"/>
+<point lat="37.74426" lon="-122.38738"/>
+<point lat="37.74412" lon="-122.38746"/>
+<point lat="37.74353" lon="-122.38763"/>
+<point lat="37.74273" lon="-122.38803"/>
+</path>
+<path>
+<tag id="KT_IBMTEM14_6992_763_no"/>
+<tag id="KT__IB312_6992_763_no"/>
+<point lat="37.79314" lon="-122.3964"/>
+<point lat="37.7943799" lon="-122.39482"/>
+<point lat="37.79442" lon="-122.39475"/>
+<point lat="37.79446" lon="-122.39466"/>
+<point lat="37.79448" lon="-122.39461"/>
+<point lat="37.7945" lon="-122.39449"/>
+<point lat="37.79451" lon="-122.39444"/>
+<point lat="37.79451" lon="-122.39424"/>
+<point lat="37.7945" lon="-122.39415"/>
+<point lat="37.79448" lon="-122.39407"/>
+<point lat="37.79445" lon="-122.39391"/>
+<point lat="37.7943799" lon="-122.39368"/>
+<point lat="37.79427" lon="-122.39342"/>
+<point lat="37.79415" lon="-122.3932"/>
+<point lat="37.79404" lon="-122.39303"/>
+<point lat="37.79392" lon="-122.39287"/>
+<point lat="37.79385" lon="-122.3928"/>
+<point lat="37.79363" lon="-122.39257"/>
+<point lat="37.7933" lon="-122.39221"/>
+<point lat="37.79293" lon="-122.39179"/>
+<point lat="37.79303" lon="-122.39161"/>
+<point lat="37.79313" lon="-122.39157"/>
+<point lat="37.79412" lon="-122.39269"/>
+<point lat="37.7942899" lon="-122.3929"/>
+<point lat="37.79437" lon="-122.39303"/>
+<point lat="37.79445" lon="-122.39317"/>
+<point lat="37.79452" lon="-122.39332"/>
+<point lat="37.79458" lon="-122.39347"/>
+<point lat="37.7947" lon="-122.39379"/>
+<point lat="37.79475" lon="-122.39398"/>
+<point lat="37.79477" lon="-122.39419"/>
+<point lat="37.79477" lon="-122.3944"/>
+<point lat="37.79475" lon="-122.39454"/>
+<point lat="37.79471" lon="-122.39459"/>
+<point lat="37.79464" lon="-122.39467"/>
+<point lat="37.79323" lon="-122.39654"/>
+</path>
+<path>
+<tag id="KT__IB4ME2_7397_7362"/>
+<point lat="37.77625" lon="-122.39404"/>
+<point lat="37.77632" lon="-122.39404"/>
+<point lat="37.7746799" lon="-122.39191"/>
+<point lat="37.77482" lon="-122.3899"/>
+<point lat="37.77283" lon="-122.38972"/>
+<point lat="37.76854" lon="-122.38927"/>
+<point lat="37.7669" lon="-122.3891"/>
+<point lat="37.76424" lon="-122.38886"/>
+<point lat="37.76177" lon="-122.38869"/>
+<point lat="37.76038" lon="-122.38856"/>
+</path>
+<path>
+<tag id="KT_OBMEMT12_6991_6739"/>
+<tag id="KT__OB118_6991_6739"/>
+<tag id="KT_OBMME12_6991_6739"/>
+<tag id="KT__OBEMB6_6991_6739"/>
+<point lat="37.76268" lon="-122.43529"/>
+<point lat="37.75883" lon="-122.44105"/>
+<point lat="37.75242" lon="-122.45512"/>
+<point lat="37.74817" lon="-122.45919"/>
+<point lat="37.74374" lon="-122.46368"/>
+<point lat="37.74096" lon="-122.4658"/>
+</path>
+<path>
+<tag id="KT__IB34_7109_6740"/>
+<tag id="KT__IB14_7109_6740"/>
+<point lat="37.73483" lon="-122.47145"/>
+<point lat="37.735" lon="-122.47139"/>
+<point lat="37.73659" lon="-122.47056"/>
+<point lat="37.7372299" lon="-122.4699"/>
+<point lat="37.73786" lon="-122.46904"/>
+<point lat="37.74092" lon="-122.46578"/>
+</path>
+<path>
+<tag id="KT__IB12_5418_7109"/>
+<point lat="37.72088" lon="-122.44665"/>
+<point lat="37.72089" lon="-122.44657"/>
+<point lat="37.72168" lon="-122.44592"/>
+<point lat="37.72104" lon="-122.44645"/>
+<point lat="37.72251" lon="-122.44524"/>
+<point lat="37.72281" lon="-122.44501"/>
+<point lat="37.72286" lon="-122.44501"/>
+<point lat="37.72291" lon="-122.44508"/>
+<point lat="37.7229" lon="-122.44619"/>
+<point lat="37.72291" lon="-122.44708"/>
+<point lat="37.72293" lon="-122.44716"/>
+<point lat="37.72296" lon="-122.44721"/>
+<point lat="37.72296" lon="-122.44955"/>
+<point lat="37.72304" lon="-122.45145"/>
+<point lat="37.72301" lon="-122.45202"/>
+<point lat="37.72346" lon="-122.454"/>
+<point lat="37.72439" lon="-122.45808"/>
+<point lat="37.72496" lon="-122.46106"/>
+<point lat="37.72527" lon="-122.46221"/>
+<point lat="37.72548" lon="-122.46281"/>
+<point lat="37.72587" lon="-122.46384"/>
+<point lat="37.72601" lon="-122.46407"/>
+<point lat="37.72679" lon="-122.46607"/>
+<point lat="37.7272" lon="-122.46648"/>
+<point lat="37.72778" lon="-122.46732"/>
+<point lat="37.72804" lon="-122.46749"/>
+<point lat="37.72829" lon="-122.46756"/>
+<point lat="37.72833" lon="-122.46773"/>
+<point lat="37.72922" lon="-122.4682"/>
+<point lat="37.72984" lon="-122.4689"/>
+<point lat="37.72999" lon="-122.4691"/>
+<point lat="37.7310299" lon="-122.47179"/>
+<point lat="37.73163" lon="-122.47171"/>
+<point lat="37.73471" lon="-122.47156"/>
+<point lat="37.73483" lon="-122.47145"/>
+</path>
+<path>
+<tag id="KT__IBWP14_7109_6898"/>
+<point lat="37.73483" lon="-122.47145"/>
+<point lat="37.735" lon="-122.47139"/>
+<point lat="37.73659" lon="-122.47056"/>
+<point lat="37.7372299" lon="-122.4699"/>
+<point lat="37.73786" lon="-122.46904"/>
+</path>
+</route>
+</body>

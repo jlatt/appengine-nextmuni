@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<body copyright="All data copyright San Francisco Muni 2010.">
+<route tag="38L" title="38L-Geary Limited" color="009900" oppositeColor="ffffff" latMin="37.7790199" latMax="37.7916499" lonMin="-122.50941" lonMax="-122.3933899">
+<stop tag="7604" title="Howard &amp; Beal" dirTag="38L_OB" lat="37.7906099" lon="-122.39357" stopId="17604"/>
+<stop tag="4725" title="Fremont St &amp; Market St" dirTag="38L_OB" lat="37.7916499" lon="-122.3981499" stopId="14725"/>
+<stop tag="5689" title="Market St &amp; Sansome St" dirTag="38L_OB" lat="37.79016" lon="-122.4004099" stopId="15689"/>
+<stop tag="5684" title="Market St &amp; Montgomery St" dirTag="38L_OB" lat="37.7884899" lon="-122.40248" stopId="15684"/>
+<stop tag="4301" title="Geary Blvd &amp; Kearny St" dirTag="38L_OB" lat="37.7879999" lon="-122.40366" stopId="14301"/>
+<stop tag="4766" title="Geary Blvd &amp; Stockton St" dirTag="38L_OB" lat="37.7876399" lon="-122.40649" stopId="14766"/>
+<stop tag="4757" title="Geary Blvd &amp; Powell St" dirTag="38L_OB" lat="37.7873999" lon="-122.40839" stopId="14757"/>
+<stop tag="4303" title="Geary Blvd &amp; Leavenworth St" dirTag="38L_OB" lat="37.78656" lon="-122.4149699" stopId="14303"/>
+<stop tag="4768" title="Geary Blvd &amp; Van Ness Ave" dirTag="38L_OB" lat="37.7858399" lon="-122.42063" stopId="14768"/>
+<stop tag="4304" title="Geary Blvd &amp; Laguna St" dirTag="38L_OB" lat="37.78503" lon="-122.4278099" stopId="14304"/>
+<stop tag="4295" title="Geary Blvd &amp; Fillmore St" dirTag="38L_OB" lat="37.7843899" lon="-122.43305" stopId="14295"/>
+<stop tag="4293" title="Geary Blvd &amp; Divisadero St" dirTag="38L_OB" lat="37.7834299" lon="-122.43937" stopId="14293"/>
+<stop tag="4758" title="Geary Blvd &amp; Presidio Ave" dirTag="38L_OB" lat="37.7825099" lon="-122.4468" stopId="14758"/>
+<stop tag="4762" title="Geary Blvd &amp; Spruce St" dirTag="38L_OB" lat="37.78185" lon="-122.4530699" stopId="14762"/>
+<stop tag="4287" title="Geary Blvd &amp; Arguello Blvd" dirTag="38L_OB" lat="37.7813799" lon="-122.45874" stopId="14287"/>
+<stop tag="4257" title="Geary Blvd &amp; 6th Ave" dirTag="38L_OB" lat="37.7811299" lon="-122.46416" stopId="14257"/>
+<stop tag="4755" title="Geary Blvd &amp; Park Presidio Blvd" dirTag="38L_OB" lat="37.7806899" lon="-122.47242" stopId="14755"/>
+<stop tag="4265" title="Geary Blvd &amp; 20th Ave" dirTag="38L_OB" lat="37.78045" lon="-122.4792699" stopId="14265"/>
+<stop tag="4269" title="Geary Blvd &amp; 25th Ave" dirTag="38L_OB" lat="37.78022" lon="-122.4846099" stopId="14269"/>
+<stop tag="4278" title="Geary Blvd &amp; 33rd Ave" dirTag="38L_OB" lat="37.7797999" lon="-122.49344" stopId="14278"/>
+<stop tag="4280" title="Geary Blvd &amp; 36th Ave" dirTag="38L_OB" lat="37.7796699" lon="-122.4964" stopId="14280"/>
+<stop tag="4282" title="Geary Blvd &amp; 40th Ave" dirTag="38L_OB" lat="37.7794699" lon="-122.50068" stopId="14282"/>
+<stop tag="6109" title="Point Lobos Ave &amp; 42nd Ave" dirTag="38L_OB" lat="37.7796499" lon="-122.5028499" stopId="16109"/>
+<stop tag="6111" title="Point Lobos Ave &amp; 44th Ave" dirTag="38L_OB" lat="37.7798399" lon="-122.5050099" stopId="16111"/>
+<stop tag="6129" title="Point Lobos Ave &amp; 46th Ave" dirTag="38L_OB" lat="37.7800399" lon="-122.5074399" stopId="16129"/>
+<stop tag="33608" title="48th Ave &amp; Point Lobos Ave" dirTag="38L_OB" lat="37.7790199" lon="-122.50941" stopId="133608"/>
+<stop tag="3608" title="48th Ave &amp; Point Lobos Ave" dirTag="38L_IB" lat="37.7790199" lon="-122.50941" stopId="13608"/>
+<stop tag="4286" title="Geary Blvd &amp; 45th Ave" dirTag="38L_IB" lat="37.77904" lon="-122.5062599" stopId="14286"/>
+<stop tag="4285" title="Geary Blvd &amp; 42nd Ave" dirTag="38L_IB" lat="37.7791499" lon="-122.50277" stopId="14285"/>
+<stop tag="4283" title="Geary Blvd &amp; 39th Ave" dirTag="38L_IB" lat="37.7792899" lon="-122.49983" stopId="14283"/>
+<stop tag="4281" title="Geary Blvd &amp; 36th Ave" dirTag="38L_IB" lat="37.77944" lon="-122.4966199" stopId="14281"/>
+<stop tag="4279" title="Geary Blvd &amp; 33rd Ave" dirTag="38L_IB" lat="37.7795699" lon="-122.4934" stopId="14279"/>
+<stop tag="4270" title="Geary Blvd &amp; 25th Ave" dirTag="38L_IB" lat="37.7799799" lon="-122.48482" stopId="14270"/>
+<stop tag="4266" title="Geary Blvd &amp; 20th Ave" dirTag="38L_IB" lat="37.7802199" lon="-122.47948" stopId="14266"/>
+<stop tag="4756" title="Geary Blvd &amp; Park Presidio Blvd" dirTag="38L_IB" lat="37.7805299" lon="-122.47268" stopId="14756"/>
+<stop tag="4258" title="Geary Blvd &amp; 6th Ave" dirTag="38L_IB" lat="37.7809" lon="-122.4643799" stopId="14258"/>
+<stop tag="4288" title="Geary Blvd &amp; Arguello Blvd" dirTag="38L_IB" lat="37.78115" lon="-122.4586899" stopId="14288"/>
+<stop tag="4763" title="Geary Blvd &amp; Spruce St" dirTag="38L_IB" lat="37.7816" lon="-122.4532599" stopId="14763"/>
+<stop tag="4759" title="Geary Blvd &amp; Presidio Ave" dirTag="38L_IB" lat="37.7823199" lon="-122.44593" stopId="14759"/>
+<stop tag="4294" title="Geary Blvd &amp; Divisadero St" dirTag="38L_IB" lat="37.78318" lon="-122.4395699" stopId="14294"/>
+<stop tag="4296" title="Geary Blvd &amp; Fillmore St" dirTag="38L_IB" lat="37.7842599" lon="-122.43331" stopId="14296"/>
+<stop tag="4305" title="Geary Blvd &amp; Laguna St" dirTag="38L_IB" lat="37.78485" lon="-122.4281499" stopId="14305"/>
+<stop tag="5818" title="O&apos;Farrell St &amp; Van Ness Ave" dirTag="38L_IB" lat="37.7846599" lon="-122.42141" stopId="15818"/>
+<stop tag="7301" title="O&apos;Farrell St &amp; Taylor St" dirTag="38L_IB" lat="37.7858499" lon="-122.41198" stopId="17301"/>
+<stop tag="5817" title="O&apos;Farrell St &amp; Powell St" dirTag="38L_IB" lat="37.7863299" lon="-122.40813" stopId="15817"/>
+<stop tag="5810" title="O&apos;Farrell St &amp; Grant Ave" dirTag="38L_IB" lat="37.7866399" lon="-122.40563" stopId="15810"/>
+<stop tag="5641" title="Market St &amp; 3rd St" dirTag="38L_IB" lat="37.7877099" lon="-122.40321" stopId="15641"/>
+<stop tag="5638" title="Market St &amp; 1st St" dirTag="38L_IB" lat="37.7909" lon="-122.3991399" stopId="15638"/>
+<stop tag="6648" title="Howard &amp; Main" dirTag="38L_IB" lat="37.7907599" lon="-122.3933899" stopId="16648"/>
+<direction tag="38L_OB" title="Outbound to 48th Avenue" name="Outbound" useForUI="true">
+  <stop tag="7604" />
+  <stop tag="4725" />
+  <stop tag="5689" />
+  <stop tag="5684" />
+  <stop tag="4301" />
+  <stop tag="4766" />
+  <stop tag="4757" />
+  <stop tag="4303" />
+  <stop tag="4768" />
+  <stop tag="4304" />
+  <stop tag="4295" />
+  <stop tag="4293" />
+  <stop tag="4758" />
+  <stop tag="4762" />
+  <stop tag="4287" />
+  <stop tag="4257" />
+  <stop tag="4755" />
+  <stop tag="4265" />
+  <stop tag="4269" />
+  <stop tag="4278" />
+  <stop tag="4280" />
+  <stop tag="4282" />
+  <stop tag="6109" />
+  <stop tag="6111" />
+  <stop tag="6129" />
+  <stop tag="33608" />
+</direction>
+<direction tag="38L_IB" title="Inbound to Transbay Terminal" name="Inbound" useForUI="true">
+  <stop tag="3608" />
+  <stop tag="4286" />
+  <stop tag="4285" />
+  <stop tag="4283" />
+  <stop tag="4281" />
+  <stop tag="4279" />
+  <stop tag="4270" />
+  <stop tag="4266" />
+  <stop tag="4756" />
+  <stop tag="4258" />
+  <stop tag="4288" />
+  <stop tag="4763" />
+  <stop tag="4759" />
+  <stop tag="4294" />
+  <stop tag="4296" />
+  <stop tag="4305" />
+  <stop tag="5818" />
+  <stop tag="7301" />
+  <stop tag="5817" />
+  <stop tag="5810" />
+  <stop tag="5641" />
+  <stop tag="5638" />
+  <stop tag="6648" />
+</direction>
+<path>
+<tag id="38L_IB6_4756_4759"/>
+<point lat="37.78053" lon="-122.47268"/>
+<point lat="37.7809" lon="-122.46438"/>
+<point lat="37.78125" lon="-122.45885"/>
+<point lat="37.7811499" lon="-122.45869"/>
+<point lat="37.78142" lon="-122.45552"/>
+<point lat="37.7816" lon="-122.45326"/>
+<point lat="37.78211" lon="-122.45008"/>
+<point lat="37.78205" lon="-122.44998"/>
+<point lat="37.78217" lon="-122.44904"/>
+<point lat="37.78214" lon="-122.44895"/>
+<point lat="37.78228" lon="-122.44789"/>
+<point lat="37.7822699" lon="-122.44755"/>
+<point lat="37.78238" lon="-122.44731"/>
+<point lat="37.78222" lon="-122.44724"/>
+<point lat="37.78232" lon="-122.44593"/>
+</path>
+<path>
+<tag id="38L_OB14_4755_4278"/>
+<point lat="37.78069" lon="-122.47242"/>
+<point lat="37.78045" lon="-122.47927"/>
+<point lat="37.78022" lon="-122.48461"/>
+<point lat="37.7798" lon="-122.49344"/>
+</path>
+<path>
+<tag id="38L_IB14_5817_5641"/>
+<point lat="37.78633" lon="-122.40813"/>
+<point lat="37.78664" lon="-122.40563"/>
+<point lat="37.7868" lon="-122.40486"/>
+<point lat="37.78672" lon="-122.40459"/>
+<point lat="37.78771" lon="-122.40321"/>
+</path>
+<path>
+<tag id="38L_OB2_7604_5684"/>
+<point lat="37.79061" lon="-122.39357"/>
+<point lat="37.78924" lon="-122.39515"/>
+<point lat="37.79165" lon="-122.39815"/>
+<point lat="37.79171" lon="-122.39827"/>
+<point lat="37.79016" lon="-122.40041"/>
+<point lat="37.78849" lon="-122.40248"/>
+</path>
+<path>
+<tag id="38L_IB10_4296_5818"/>
+<point lat="37.78426" lon="-122.43331"/>
+<point lat="37.78435" lon="-122.43292"/>
+<point lat="37.78485" lon="-122.42815"/>
+<point lat="37.78515" lon="-122.42645"/>
+<point lat="37.78533" lon="-122.42469"/>
+<point lat="37.78526" lon="-122.42454"/>
+<point lat="37.7851799" lon="-122.42418"/>
+<point lat="37.7849999" lon="-122.42388"/>
+<point lat="37.78488" lon="-122.42375"/>
+<point lat="37.78476" lon="-122.42361"/>
+<point lat="37.78461" lon="-122.42333"/>
+<point lat="37.78455" lon="-122.42304"/>
+<point lat="37.78454" lon="-122.42285"/>
+<point lat="37.78466" lon="-122.42141"/>
+</path>
+<path>
+<tag id="38L_IB12_5818_5817"/>
+<point lat="37.78466" lon="-122.42141"/>
+<point lat="37.78585" lon="-122.41198"/>
+<point lat="37.78633" lon="-122.40813"/>
+</path>
+<path>
+<tag id="38L_OB10_4295_4758"/>
+<point lat="37.78439" lon="-122.43305"/>
+<point lat="37.78371" lon="-122.43785"/>
+<point lat="37.78343" lon="-122.43864"/>
+<point lat="37.78331" lon="-122.43928"/>
+<point lat="37.78343" lon="-122.43937"/>
+<point lat="37.78288" lon="-122.44279"/>
+<point lat="37.78294" lon="-122.44293"/>
+<point lat="37.78261" lon="-122.44576"/>
+<point lat="37.78248" lon="-122.44583"/>
+<point lat="37.7825599" lon="-122.44594"/>
+<point lat="37.78251" lon="-122.4468"/>
+</path>
+<path>
+<tag id="38L_IB4_4279_4756"/>
+<point lat="37.77957" lon="-122.4934"/>
+<point lat="37.77998" lon="-122.48482"/>
+<point lat="37.78022" lon="-122.47948"/>
+<point lat="37.78053" lon="-122.47268"/>
+</path>
+<path>
+<tag id="38L_OB12_4758_4755"/>
+<point lat="37.78251" lon="-122.4468"/>
+<point lat="37.78238" lon="-122.44731"/>
+<point lat="37.78255" lon="-122.44737"/>
+<point lat="37.78236" lon="-122.44898"/>
+<point lat="37.7823" lon="-122.44907"/>
+<point lat="37.7822" lon="-122.45001"/>
+<point lat="37.78211" lon="-122.45008"/>
+<point lat="37.78197" lon="-122.45111"/>
+<point lat="37.78185" lon="-122.45307"/>
+<point lat="37.78138" lon="-122.45874"/>
+<point lat="37.78113" lon="-122.46416"/>
+<point lat="37.78069" lon="-122.47242"/>
+</path>
+<path>
+<tag id="38L_OB6_4757_4768"/>
+<point lat="37.7874" lon="-122.40839"/>
+<point lat="37.78656" lon="-122.41497"/>
+<point lat="37.78584" lon="-122.42063"/>
+</path>
+<path>
+<tag id="38L_IB2_3608_4279"/>
+<point lat="37.77902" lon="-122.50941"/>
+<point lat="37.77896" lon="-122.50936"/>
+<point lat="37.77904" lon="-122.50626"/>
+<point lat="37.77915" lon="-122.50277"/>
+<point lat="37.77929" lon="-122.49983"/>
+<point lat="37.77944" lon="-122.49662"/>
+<point lat="37.77957" lon="-122.4934"/>
+</path>
+<path>
+<tag id="38L_IB8_4759_4296"/>
+<point lat="37.78232" lon="-122.44593"/>
+<point lat="37.78238" lon="-122.4459"/>
+<point lat="37.78248" lon="-122.44583"/>
+<point lat="37.7824" lon="-122.44572"/>
+<point lat="37.7828" lon="-122.4429"/>
+<point lat="37.78288" lon="-122.44279"/>
+<point lat="37.7831199" lon="-122.44114"/>
+<point lat="37.78318" lon="-122.43957"/>
+<point lat="37.78343" lon="-122.43864"/>
+<point lat="37.78427" lon="-122.43376"/>
+<point lat="37.78426" lon="-122.43331"/>
+</path>
+<path>
+<tag id="38L_OB16_4278_33608"/>
+<point lat="37.7798" lon="-122.49344"/>
+<point lat="37.77967" lon="-122.4964"/>
+<point lat="37.77947" lon="-122.50068"/>
+<point lat="37.77935" lon="-122.50079"/>
+<point lat="37.77942" lon="-122.50093"/>
+<point lat="37.7796499" lon="-122.50285"/>
+<point lat="37.77984" lon="-122.50501"/>
+<point lat="37.77998" lon="-122.50729"/>
+<point lat="37.78004" lon="-122.50744"/>
+<point lat="37.77992" lon="-122.50836"/>
+<point lat="37.77984" lon="-122.50942"/>
+<point lat="37.77902" lon="-122.50941"/>
+</path>
+<path>
+<tag id="38L_OB4_5684_4757"/>
+<point lat="37.78849" lon="-122.40248"/>
+<point lat="37.78808" lon="-122.40291"/>
+<point lat="37.78807" lon="-122.40303"/>
+<point lat="37.78801" lon="-122.40311"/>
+<point lat="37.78795" lon="-122.4035"/>
+<point lat="37.7879999" lon="-122.40366"/>
+<point lat="37.78764" lon="-122.40649"/>
+<point lat="37.7874" lon="-122.40839"/>
+</path>
+<path>
+<tag id="38L_IB16_5641_6648"/>
+<point lat="37.78771" lon="-122.40321"/>
+<point lat="37.7909" lon="-122.39914"/>
+<point lat="37.7932599" lon="-122.3963"/>
+<point lat="37.79378" lon="-122.39562"/>
+<point lat="37.79131" lon="-122.39252"/>
+<point lat="37.79072" lon="-122.39327"/>
+<point lat="37.79076" lon="-122.39339"/>
+</path>
+<path>
+<tag id="38L_OB8_4768_4295"/>
+<point lat="37.78584" lon="-122.42063"/>
+<point lat="37.78541" lon="-122.42356"/>
+<point lat="37.78537" lon="-122.42382"/>
+<point lat="37.7854" lon="-122.42457"/>
+<point lat="37.78533" lon="-122.42469"/>
+<point lat="37.78515" lon="-122.42645"/>
+<point lat="37.78503" lon="-122.42781"/>
+<point lat="37.78435" lon="-122.43292"/>
+<point lat="37.78439" lon="-122.43305"/>
+</path>
+</route>
+</body>
