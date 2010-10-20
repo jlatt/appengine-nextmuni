@@ -21,8 +21,9 @@ def route_list(resource):
     doc = minidom.parse(resource)
 
     def to_route(element):
-        route = model.Route()
-        route.tag = element.getAttribute('tag')
+        tag = element.getAttribute('tag')
+        route = model.Route(key_name=tag)
+        route.tag = tag
         route.title = element.getAttribute('title')
         route.short_title = element.getAttribute('shortTitle') # optional
         return route
@@ -38,57 +39,54 @@ def route_config(resource):
 
     doc = minidom.parse(resource)
 
+    route_tag = doc.getElementsByTagName('route')[0].getAttribute('tag')
+    route_key = db.Key.from_path('Route', route_tag)
+
     # create stops
-    def to_stop(element):
-        stop = model.Stop()
-        stop.location = element_to_point(element)
-        stop.tag = element.getAttribute('tag')
-        stop.title = element.getAttribute('title')
-        stop.short_title = element.getAttribute('shortTitle') # optional
-        stop.stop_id = element.getAttribute('stopId')
-        stop.update_location()
-        return stop
+    stops = []
+    def to_route_stop(element):
+        tag = element.getAttribute('tag')
+        stop = model.Stop.get_by_key_name(tag)
+        if not stop:
+            stop = model.Stop(key_name=tag)
+            stop.location = element_to_point(element)
+            stop.title = element.getAttribute('title')
+            stop.short_title = element.getAttribute('shortTitle') # optional
+            stop.stop_id = element.getAttribute('stopId')
+            stop.update_location()
+            stops.append(stop)
+
+        route_stop = model.RouteDirectionStop()
+        route_stop.stop = db.Key.from_path('Stop', tag)
+        route_stop.direction = db.Key.from_path('RouteDirection', element.getAttribute('dirTag'))
+        return route_stop
     route_stop_elements = doc.getElementsByTagName('stop')
-    stops = map(to_stop, (element for element in route_stop_elements if element.getAttribute('lat')))
-    db.put(stops)
+    route_stops = map(to_route_stop, (element for element in route_stop_elements if element.getAttribute('lat')))
+    if stops:
+        db.put(stops)
 
     # create route directions
-    stops_by_tag = dict((stop.tag, stop) for stop in stops)
+    route_stops_by_tag = dict((route_stop.stop.key().name(), route_stop) for route_stop in route_stops)
+    directions = []
     def to_direction(element):
-        direction = model.RouteDirection()
-        direction.tag = element.getAttribute('tag')
+        tag = element.getAttribute('tag')
+        direction = model.RouteDirection(key_name=tag)
+        direction.route = route_key
         direction.title = element.getAttribute('title')
         direction.use_for_ui = element.getAttribute('useForUI') == 'true'
+
         stop_elements = element.getElementsByTagName('stop')
-        direction.stops = [stops_by_tag[stop_element.getAttribute('tag')].key() for stop_element in stop_elements]
+        for index, stop_element in enumerate(stop_elements):
+            tag = stop_element.getAttribute('tag')
+            route_stops_by_tag[tag].index = index
+
         return direction
     direction_elements = doc.getElementsByTagName('direction')
     directions = map(to_direction, direction_elements)
     db.put(directions)
+    db.put(route_stops)
 
-    # create paths
-    def to_path(element):
-        path = model.RoutePath()
-        point_elements = element.getElementsByTagName('point')
-        path.points = [element_to_point(point_element) for point_element in point_elements]
-        return path
-    path_elements = doc.getElementsByTagName('path')
-    paths = map(to_path, path_elements)
-    db.put(paths)
-
-    # connect directions and paths
-    directions_by_tag = dict((direction.tag, direction) for direction in directions)
-    for path, element in zip(paths, path_elements):
-        tag_elements = element.getElementsByTagName('tag')
-        for tag_element in tag_elements:
-            tag = tag_element.getAttribute('id')
-            if tag in directions_by_tag:
-                directions_by_tag[tag].path = path
-            else:
-                log.warning('tag %(tag)s not found', locals())
-    db.put(directions)
-
-    return stops, directions, paths
+    return stops, directions, route_stops
 
 
 def delete_all():
@@ -101,4 +99,6 @@ def delete_all():
 def load():
     routes = route_list(file(os.path.join('xml', 'route_list.xml')))
     for route in routes:
-        route_config(file(os.path.join('xml', 'route_config_%s.xml' % route.tag)))
+        path = os.path.join('xml', 'route_config_%s.xml' % route.tag)
+        log.info('loading %s', path)
+        route_config(file(path))

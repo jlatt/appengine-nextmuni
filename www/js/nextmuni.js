@@ -39,11 +39,11 @@ nextmuni.getCurrentPosition = function(fun) {
         console.error('geolocation failed');
     });
 };
-/*nextmuni.getCurrentPosition = function(fun) { // XXX mock
+nextmuni.getCurrentPosition = function(fun) { // XXX mock
     console.log('mock getCurrentPosition()');
     var center = new google.maps.LatLng(37.7867656, -122.4580752);
     fun.call(navigator.geolocation, center);
-};*/
+};
 
 
 nextmuni.queryBounds = function() {
@@ -70,7 +70,9 @@ nextmuni.queryBounds = function() {
                     $.ajax({
                         'url': '/api/stop/' + stop.key,
                         'success': function(data, status, xhr) {
-                            console.log('stop', stop, data);
+							nextmuni.infoWindow.setContent(data.routes.join(', '));
+							nextmuni.infoWindow.setPosition(position);
+							nextmuni.infoWindow.open(nextmuni.map);
                         }
                     });
                 });
@@ -91,6 +93,7 @@ $(function() {
         'mapTypeId': google.maps.MapTypeId.ROADMAP,
         'zoom': 16
     });
+	nextmuni.infoWindow = new google.maps.InfoWindow();
     nextmuni.setCenter = nextmuni.setMapCenter;
     nextmuni.saveMapCenter.center && nextmuni.setMapCenter(nextmuni.saveMapCenter.center);
 });

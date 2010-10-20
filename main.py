@@ -20,8 +20,6 @@ class JSONRequestHandler(webapp.RequestHandler):
 
 class Stops(JSONRequestHandler):
     def get(self):
-        log.debug('Stops')
-
         n = float(self.request.get('n'))
         e = float(self.request.get('e'))
         s = float(self.request.get('s'))
@@ -34,7 +32,7 @@ class Stops(JSONRequestHandler):
                 short_title=stop.short_title,
                 title=stop.title,
                 stop_id=stop.stop_id,
-                tag=stop.tag,
+                tag=stop.key().name(),
                 key=str(stop.key()),
                 )
             return stop_dict
@@ -46,8 +44,10 @@ class Stops(JSONRequestHandler):
 class Stop(JSONRequestHandler):
     def get(self, stop_key):
         stop = model.Stop.get(stop_key)
-        route = stop.route
-        self.write_json()
+        rd_stops = list(stop.route_direction_stops)
+        directions = [rd_stop.direction for rd_stop in rd_stops]
+        routes = [direction.route for direction in directions]
+        self.write_json(routes=[route.key().name() for route in routes])
 
 
 application = webapp.WSGIApplication([

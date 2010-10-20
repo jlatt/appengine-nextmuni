@@ -9,28 +9,26 @@ __author__ = 'Jeremy Latt <jeremy.latt@gmail.com>'
 
 class Tagged(db.Model):
     short_title = db.StringProperty()
-    tag = db.StringProperty()
     title = db.StringProperty()
 
 
 class Route(Tagged):
     # directions = [RouteDirection]
-    # stops = [Stop]
     pass
 
 
 class Stop(geomodel.GeoModel, Tagged):
-    route = db.ReferenceProperty(Route, collection_name='stops')
     stop_id = db.StringProperty()
-
-
-class RoutePath(db.Model):
-    # directions = [RouteDirection]
-    points = db.ListProperty(db.GeoPt)
+    # route_direction_stops = [RouteDirectionStop]
 
 
 class RouteDirection(Tagged):
-    path = db.ReferenceProperty(RoutePath, collection_name='directions')
     route = db.ReferenceProperty(Route, collection_name='directions')
-    stops = db.ListProperty(db.Key)
     use_for_ui = db.BooleanProperty(default=False)
+    # route_direction_stops = [RouteDirectionStop]
+
+
+class RouteDirectionStop(db.Model):
+    index = db.IntegerProperty()
+    stop = db.ReferenceProperty(Stop, collection_name='route_direction_stops')
+    direction = db.ReferenceProperty(RouteDirection, collection_name='route_direction_stops')
